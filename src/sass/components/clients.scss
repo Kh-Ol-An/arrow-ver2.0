@@ -1,0 +1,21 @@
+.client_head {
+  display: inline-block;
+  margin: 0 auto;
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2980b9;
+    
+    &::after {
+      display: block;
+      background-color: #2980b9;
+      width: 30px;
+      height: 5px;
+      content: '';
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+  }
+}
