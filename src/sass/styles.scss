@@ -1,4 +1,13 @@
 /*
    Import partials below
 */
+@import './helpers/constants';
+@import './helpers/fonts';
+@import './helpers/mixins';
+@import './helpers/placeholders';
+
+
 @import './normalize';
+@import './base';
+@import './helpers/visuallyhidden';
+
