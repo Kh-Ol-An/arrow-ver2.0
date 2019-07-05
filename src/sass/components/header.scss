@@ -6,14 +6,12 @@
   background-position: center;
   background-size: cover;
   @include flex_a_between;
-}
 
-.nav {
-  padding-left: 15px;
-  padding-right: 15px;
-  height: 114px;
-  @include flex_between;
-  align-items: center;
+  &__nav {
+    height: 114px;
+    @include flex_between;
+    align-items: center;
+  }
 
   &__logo_link {
     @extend %link;
@@ -37,14 +35,14 @@
   z-index: 1;
 }
 
-.logo_name {
+.header__logo_name {
   margin-bottom: 40px;
 }
 
 .header__text {
   color: $color_base;
   font-size: $size_base_header;
-  @extend %title;
+  text-align: center;
   width: 40%;
   margin-bottom: 30px;
 }
@@ -56,21 +54,25 @@
   background-color: rgba(0, 0, 0, 0);
   width: 158px;
   height: 40px;
+  text-align: center;
   font-family: $family_releway_BD;
   font-size: $size_button_header;
   color: $color_base;
-  margin-bottom: 230px;
+  margin-bottom: 276px;
+  cursor: pointer;
 }
 
 .header__scroll_button {
+  position: relative;
   @extend %mar_pad_zer;
   border: none;
   background-color: rgba(0, 0, 0, 0);
   font-family: $family_releway_L;
   font-size: $size_button_header;
   color: $color_base;
-  @extend %uppercase;
+  @extend %upper_center;
   margin-bottom: 50px;
+  cursor: pointer;
 
   &::before {
     display: inline-block;
@@ -79,32 +81,35 @@
     height: 50px;
     background-image: url('../images/png/mouse_scrolling-50.png');
     @extend %bg_position;
+    @extend %translateX_center;
+    top: -60px;
   }
 }
 
 .main_arrow {
   @extend %main_arrow;
-  height: 22.7373%;
+  height: 206px;
+  bottom: 0;
 
   &__left {
     @extend %main_arrow;
     width: 50%;
     left: 0;
-
-    &::after {
-      display: inline-block;
-      @extend %main_arrow_left;
-    }
+    background: linear-gradient(
+      to bottom left,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
   }
 
   &__right {
     @extend %main_arrow;
     width: 50%;
     right: 0;
-
-    &::after {
-      display: inline-block;
-      @extend %main_arrow_right;
-    }
+    background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
   }
 }

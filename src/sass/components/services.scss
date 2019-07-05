@@ -1,0 +1,69 @@
+.services {
+  padding-top: 58px;
+  // padding-bottom: 20px;
+
+  &__title {
+    @extend %upper_center;
+    font-family: $family_releway_BD;
+    font-size: $size_title;
+    color: $color_title;
+    margin-bottom: 142px;
+
+    &::after {
+      @extend %under_line;
+    }
+  }
+
+  &__list {
+    @extend %list;
+    @include flex_around;
+  }
+
+  &__link {
+    @extend %link;
+    color: $color_services;
+  }
+
+  &__item {
+    width: 195px;
+    position: relative;
+
+    &::after {
+      @extend %pseudo;
+      @extend %bg_position;
+      @extend %translateX_center;
+      height: 63px;
+      top: -76px;
+    }
+
+    &:nth-of-type(1)::after {
+      background-image: url('../images/png/idea-icon.png');
+      width: 39px;
+      // height: 60px;
+    }
+
+    &:nth-of-type(2)::after {
+      background-image: url('../images/png/design-icon.png');
+      width: 63px;
+      // height: 63px;
+    }
+
+    &:nth-of-type(3)::after {
+      background-image: url('../images/png/code-icon.png');
+      width: 65px;
+      // height: 57px;
+    }
+  }
+}
+
+.services_item__title {
+  font-size: $size_service;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.services__text {
+  font-size: $family_releway_L;
+  font-size: $size_base;
+  text-align: center;
+}
