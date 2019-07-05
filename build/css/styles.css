@@ -5,7 +5,7 @@
 /* raleway-300 - latin */
 
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway_L';
   font-style: normal;
   font-weight: 300;
   src: local("Raleway Light"), local("Raleway-Light"), url("../../fonts/raleway-v13-latin-300.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-300.woff") format("woff");
@@ -23,7 +23,7 @@
 /* raleway-700 - latin */
 
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway_BD';
   font-style: normal;
   font-weight: 700;
   src: local("Raleway Bold"), local("Raleway-Bold"), url("../../fonts/raleway-v13-latin-700.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-700.woff") format("woff");
@@ -32,7 +32,7 @@
 /* raleway-900 - latin */
 
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway_BK';
   font-style: normal;
   font-weight: 900;
   src: local("Raleway Black"), local("Raleway-Black"), url("../../fonts/raleway-v13-latin-900.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-900.woff") format("woff");
@@ -50,7 +50,7 @@
 /* lato-700italic - latin */
 
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Lato_I_BD';
   font-style: italic;
   font-weight: 700;
   src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url("../../fonts/lato-v15-latin-700italic.woff2") format("woff2"), url("../../fonts/lato-v15-latin-700italic.woff") format("woff");
@@ -524,6 +524,16 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
+=======
+body {
+  font-family: "Raleway";
+  font-size: 13px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+>>>>>>> master
 .header {
   height: 960px;
   position: relative;
@@ -554,6 +564,36 @@ input[type="radio"].visually-hidden {
 
 .nav__list {
   width: 488px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.client_head__title {
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  color: #2980b9;
+  margin-bottom: 45px;
+}
+
+.client_head__lorem {
+  width: 360px;
+  font-size: 13px;
+  color: #616161;
+}
+
+.client_list {
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -566,6 +606,54 @@ input[type="radio"].visually-hidden {
 }
 
 .header__contents {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+  margin-top: 70px;
+  margin-bottom: 85px;
+  list-style: none;
+  padding-bottom: 20px;
+  position: relative;
+  border-bottom: #2980b9;
+}
+
+.client_list__link {
+  position: relative;
+  display: block;
+}
+
+.client_list__link::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #287eb8;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.client_list__link:hover,
+.client_list__link:focus,
+.client_list__link:hover::after,
+.client_list__link:focus::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.client_info {
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -593,8 +681,7 @@ input[type="radio"].visually-hidden {
   background-color: rgba(0, 0, 0, 0);
   width: 158px;
   height: 40px;
-  font-family: "Raleway";
-  font-weight: 700;
+  font-family: "Raleway_BD";
   font-size: 15px;
   color: #ffffff;
   margin-bottom: 230px;
@@ -603,8 +690,7 @@ input[type="radio"].visually-hidden {
 .header__scroll_button {
   border: none;
   background-color: rgba(0, 0, 0, 0);
-  font-family: "Raleway";
-  font-weight: 300;
+  font-family: "Raleway_L";
   font-size: 15px;
   color: #ffffff;
   margin-bottom: 50px;
@@ -616,7 +702,6 @@ input[type="radio"].visually-hidden {
   width: 50px;
   height: 50px;
   background-image: url("./images/png/mouse_scrolling-50.png");
-  background-color: #fff;
 }
 
 .main_arrow {
@@ -653,7 +738,10 @@ input[type="radio"].visually-hidden {
 }
 
 .client_head__title {
+<<<<<<< HEAD
   font-family: Raleway;
+=======
+>>>>>>> master
   text-transform: uppercase;
   font-weight: bold;
   font-size: 25px;
@@ -661,11 +749,27 @@ input[type="radio"].visually-hidden {
   margin-bottom: 45px;
 }
 
+<<<<<<< HEAD
+=======
+.client_head__title::after {
+  display: block;
+  background-color: #287eb8;
+  width: 30px;
+  height: 5px;
+  content: '';
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+>>>>>>> master
 .client_head__lorem {
   width: 360px;
   font-size: 13px;
   color: #616161;
+<<<<<<< HEAD
   position: relative;
+=======
+>>>>>>> master
 }
 
 .client_list {
@@ -678,7 +782,10 @@ input[type="radio"].visually-hidden {
   list-style: none;
   padding-bottom: 20px;
   position: relative;
+<<<<<<< HEAD
   border-bottom: 1px solid #2980b9;
+=======
+>>>>>>> master
 }
 
 .client_list__link {
@@ -700,8 +807,13 @@ input[type="radio"].visually-hidden {
   transform: translateX(-50%);
   visibility: hidden;
   opacity: 0;
+<<<<<<< HEAD
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
+=======
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+>>>>>>> master
 }
 
 .client_list__link:hover,
@@ -737,4 +849,24 @@ input[type="radio"].visually-hidden {
 
 .client_info__founder {
   color: #287eb8;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+
+.client_btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100%;
+=======
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
 }

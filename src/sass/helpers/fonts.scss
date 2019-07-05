@@ -1,6 +1,6 @@
 /* raleway-300 - latin */
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway_L';
   font-style: normal;
   font-weight: 300;
   src: local('Raleway Light'), local('Raleway-Light'),
@@ -18,7 +18,7 @@
 }
 /* raleway-700 - latin */
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway_BD';
   font-style: normal;
   font-weight: 700;
   src: local('Raleway Bold'), local('Raleway-Bold'),
@@ -27,7 +27,7 @@
 }
 /* raleway-900 - latin */
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway_BK';
   font-style: normal;
   font-weight: 900;
   src: local('Raleway Black'), local('Raleway-Black'),
@@ -45,7 +45,7 @@
 }
 /* lato-700italic - latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Lato_I_BD';
   font-style: italic;
   font-weight: 700;
   src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
