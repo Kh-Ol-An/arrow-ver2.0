@@ -3,6 +3,11 @@
   justify-content: $between;
 }
 
+@mixin flex_around($flex: flex, $around: space-around) {
+  display: $flex;
+  justify-content: $around;
+}
+
 @mixin flex_center($flex: flex, $j_center: center, $a_center: center) {
   display: $flex;
   justify-content: $j_center;
