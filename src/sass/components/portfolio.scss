@@ -1,48 +1,25 @@
 .portfolio-section {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: linear-gradient(
       rgba(33, 33, 33, 0.8),
       rgba(33, 33, 33, 0.8)
     ),
-    url(../images/hero-02.JPG);
+    url('../images/hero-02.JPG');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.filter-top::before {
-  display: block;
-  content: '';
-  background: url(../images/Sep-top.png) top center no-repeat;
-  margin: 0 auto;
-  width: 100%;
-  background-size: contain;
-  margin: 0 auto;
-  height: 210px;
-  width: 100%;
-}
-
-.filter-bottom::after {
-  display: block;
-  content: '';
-  background: url(../images/Sep-bot.png) top 0px center;
-  margin: 0 auto;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  height: 190px;
-  width: 100%;
-}
-
 .portfolio-section__title {
   font-size: 25px;
   color: rgb(250, 252, 254);
-  font-family: 'Raleway';
-  font-weight: 700;
+  font-family: 'Raleway_BD';
   text-transform: uppercase;
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .portfolio-section__title::after {
@@ -58,8 +35,9 @@
 .portfolio-section__list {
   margin: 0 auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 1140px;
+  width: 100%;
   list-style: none;
 }
 
@@ -68,6 +46,8 @@
 }
 
 .overlay-portfolio {
+  display: block;
+  text-decoration: none;
   position: absolute;
   background: rgba(41, 128, 185, 0.9);
   width: 375px;
@@ -85,9 +65,8 @@
   padding-top: 45px;
   text-align: center;
   color: #fafcfe;
-  font-family: 'Raleway';
+  font-family: 'Raleway_BD';
   font-size: 25px;
-  font-weight: 700;
 }
 
 .overlay-portfolio__button {
@@ -112,4 +91,60 @@
   transform: translate(-50%, -50%);
   width: 24px;
   height: 24px;
+}
+
+
+.main_arrow_bottom {
+  @extend %main_arrow;
+  height: 206px;
+
+  &__left {
+    @extend %main_arrow;
+    width: 50%;
+    left: 0;
+    background: linear-gradient(
+      to bottom left,
+      rgba(0,0,0,0) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  }
+
+  &__right {
+    @extend %main_arrow;
+    width: 50%;
+    right: 0;
+    background: linear-gradient(
+      to bottom right,
+      rgba(0,0,0,0) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  } 
+}
+
+.main_arrow_top {
+  @extend %main_arrow;
+  height: 206px;
+  top: 0;
+
+  &__left {
+    @extend %main_arrow;
+    width: 50%;
+    left: 0;
+    background: linear-gradient(
+      to top right,
+      rgba(0,0,0,0) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  }
+
+  &__right {
+    @extend %main_arrow;
+    width: 50%;
+    right: 0;
+    background: linear-gradient(
+      to top left,
+      rgba(0,0,0,0) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  } 
 }

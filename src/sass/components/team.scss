@@ -1,17 +1,15 @@
 .team-section {
   font-family: 'Raleway';
   padding-top: 60px;
-  background-color: rgb(250, 252, 254);
   padding-bottom: 12px;
 }
 
 .team-section__title {
-  font-family: 'Raleway';
+  font-family: 'Raleway_BD';
   margin: 0 auto;
   text-align: center;
   color: #2980b9;
   font-size: 25px;
-  font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -30,7 +28,6 @@
   color: #616161;
   font-family: 'Raleway';
   font-size: 13px;
-  font-weight: 400;
   margin: 0 auto;
   text-align: center;
   width: 400px;
@@ -40,8 +37,10 @@
 .team-section__list {
   margin: 0 auto;
   display: flex;
-  width: 1140px;
+  max-width: 1140px;
+  width: 100%;
   flex: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
   list-style: none;
@@ -56,10 +55,9 @@
   width: 263px;
   height: 250px;
   border-radius: 3px;
-  background: rgba(41, 128, 185, 0.7);
+  background: rgba(41, 128, 185, .7);
   opacity: 0;
   z-index: -1;
-  cursor: pointer;
 }
 
 .photo:hover .overlay-team {
@@ -76,6 +74,7 @@
   width: 188px;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .socials__link {
@@ -96,10 +95,26 @@
 }
 
 .team-section__name {
+  display: block;
+  text-decoration: none;
+  font-family: 'Raleway_BD';
+  font-size: 20px;
   color: #2980b9;
   margin-top: 16px;
 }
 
 .team-section__occupation {
   margin-top: 6px;
+  color: #000;
+}
+
+
+@media (max-width: 1199px) {
+  .team-section__list {
+    justify-content: center;
+  }
+
+  .team-section__item {
+    margin: 0 10px 20px;
+  }
 }

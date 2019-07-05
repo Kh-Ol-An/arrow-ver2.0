@@ -7,16 +7,13 @@
 @import './helpers/placeholders';
 @import './normalize';
 @import './base';
-@import './components/container';
-@import './helpers/visuallyhidden'; 
 @import './components/body';
-
+@import './components/container';
+@import './helpers/visuallyhidden';
 @import './components/header';
-
-@import './components/services';
-@import './components/clients';
 @import './components/portfolio';
 @import './components/team';
-@import './components/offices';
 @import './components/clients';
+@import './components/services';
+@import './components/offices';
 @import './components/footer';
