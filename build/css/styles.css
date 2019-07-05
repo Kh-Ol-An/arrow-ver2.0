@@ -2,16 +2,12 @@
    Import partials below
 */
 
-/* raleway-300 - latin */
-
 @font-face {
   font-family: 'Raleway_L';
   font-style: normal;
   font-weight: 300;
   src: local("Raleway Light"), local("Raleway-Light"), url("../../fonts/raleway-v13-latin-300.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-300.woff") format("woff");
 }
-
-/* raleway-regular - latin */
 
 @font-face {
   font-family: 'Raleway';
@@ -20,16 +16,12 @@
   src: local("Raleway"), local("Raleway-Regular"), url("../../fonts/raleway-v13-latin-regular.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-regular.woff") format("woff");
 }
 
-/* raleway-700 - latin */
-
 @font-face {
   font-family: 'Raleway_BD';
   font-style: normal;
   font-weight: 700;
   src: local("Raleway Bold"), local("Raleway-Bold"), url("../../fonts/raleway-v13-latin-700.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-700.woff") format("woff");
 }
-
-/* raleway-900 - latin */
 
 @font-face {
   font-family: 'Raleway_BK';
@@ -38,16 +30,12 @@
   src: local("Raleway Black"), local("Raleway-Black"), url("../../fonts/raleway-v13-latin-900.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-900.woff") format("woff");
 }
 
-/* lato-regular - latin */
-
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   src: local("Lato Regular"), local("Lato-Regular"), url("../../fonts/lato-v15-latin-regular.woff2") format("woff2"), url("../../fonts/lato-v15-latin-regular.woff") format("woff");
 }
-
-/* lato-700italic - latin */
 
 @font-face {
   font-family: 'Lato_I_BD';
@@ -565,6 +553,7 @@ body {
 .nav__list {
   width: 488px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -594,6 +583,8 @@ body {
 >>>>>>> master
 >>>>>>> master
 >>>>>>> master
+=======
+>>>>>>> master
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -606,6 +597,7 @@ body {
 }
 
 .header__contents {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -654,6 +646,8 @@ body {
 >>>>>>> master
 >>>>>>> master
 >>>>>>> master
+=======
+>>>>>>> master
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -701,7 +695,7 @@ body {
   content: '';
   width: 50px;
   height: 50px;
-  background-image: url("./images/png/mouse_scrolling-50.png");
+  background-image: url("../images/png/mouse_scrolling-50.png");
 }
 
 .main_arrow {
@@ -739,8 +733,12 @@ body {
 
 .client_head__title {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: Raleway;
 =======
+>>>>>>> master
+=======
+  font-family: Raleway;
 >>>>>>> master
   text-transform: uppercase;
   font-weight: bold;
@@ -749,6 +747,7 @@ body {
   margin-bottom: 45px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 .client_head__title::after {
@@ -761,6 +760,8 @@ body {
   margin-top: 15px;
 }
 
+>>>>>>> master
+=======
 >>>>>>> master
 .client_head__lorem {
   width: 360px;
@@ -783,8 +784,12 @@ body {
   padding-bottom: 20px;
   position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-bottom: 1px solid #2980b9;
 =======
+>>>>>>> master
+=======
+  border-bottom: #2980b9;
 >>>>>>> master
 }
 
@@ -808,11 +813,16 @@ body {
   visibility: hidden;
   opacity: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 =======
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
+>>>>>>> master
+=======
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 >>>>>>> master
 }
 
@@ -850,10 +860,13 @@ body {
 .client_info__founder {
   color: #287eb8;
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
 }
 
 .client_btn {
@@ -864,9 +877,244 @@ body {
   transform: translate(-50%, -50%);
   height: 100px;
   width: 100%;
+<<<<<<< HEAD
 =======
 >>>>>>> master
 >>>>>>> master
 >>>>>>> master
+>>>>>>> master
+=======
+}
+
+.portfolio-section {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 33, 33, 0.8)), to(rgba(33, 33, 33, 0.8))), url(../images/hero-02.JPG);
+  background-image: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url(../images/hero-02.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.filter-top::before {
+  display: block;
+  content: '';
+  background: url(../images/Sep-top.png) top center no-repeat;
+  margin: 0 auto;
+  width: 100%;
+  background-size: contain;
+  margin: 0 auto;
+  height: 210px;
+  width: 100%;
+}
+
+.filter-bottom::after {
+  display: block;
+  content: '';
+  background: url(../images/Sep-bot.png) top 0px center;
+  margin: 0 auto;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 190px;
+  width: 100%;
+}
+
+.portfolio-section__title {
+  font-size: 25px;
+  color: #fafcfe;
+  font-family: 'Raleway';
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.portfolio-section__title::after {
+  display: block;
+  margin: 0 auto;
+  content: '';
+  background-color: #fafcfe;
+  width: 30px;
+  height: 6px;
+  margin-top: 16px;
+}
+
+.portfolio-section__list {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1140px;
+  list-style: none;
+}
+
+.portfolio-section__items {
+  position: relative;
+}
+
+.overlay-portfolio {
+  position: absolute;
+  background: rgba(41, 128, 185, 0.9);
+  width: 375px;
+  height: 200px;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.portfolio-section__items:hover .overlay-portfolio {
+  visibility: visible;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.overlay-portfolio__inside {
+  padding-top: 45px;
+  text-align: center;
+  color: #fafcfe;
+  font-family: 'Raleway';
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.overlay-portfolio__button {
+  position: relative;
+  border: 0;
+  display: block;
+  margin: 0 auto;
+  background: #fafcfe;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 34px;
+}
+
+.overlay-portfolio__plus {
+  fill: #2980b9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+}
+
+.team-section {
+  font-family: 'Raleway';
+  padding-top: 60px;
+  background-color: #fafcfe;
+  padding-bottom: 12px;
+}
+
+.team-section__title {
+  font-family: 'Raleway';
+  margin: 0 auto;
+  text-align: center;
+  color: #2980b9;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.team-section__title::after {
+  display: block;
+  margin: 0 auto;
+  content: '';
+  background-color: #2980b9;
+  width: 30px;
+  height: 6px;
+  margin-top: 16px;
+}
+
+.team-section__paragraph {
+  color: #616161;
+  font-family: 'Raleway';
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+  margin-bottom: 60px;
+}
+
+.team-section__list {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: flex;
+  width: 1140px;
+  -webkit-box-flex: row;
+  flex: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+}
+
+.photo {
+  position: relative;
+}
+
+.overlay-team {
+  position: absolute;
+  width: 263px;
+  height: 250px;
+  border-radius: 3px;
+  background: rgba(41, 128, 185, 0.7);
+  opacity: 0;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.photo:hover .overlay-team {
+  opacity: 1;
+  z-index: 1;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.socials {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 188px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.socials__link {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: #fafcfe;
+  opacity: 1;
+  border-radius: 50px;
+}
+
+.socials__button {
+  width: 30px;
+  height: 30px;
+  fill: #2980b9;
+}
+
+.team-section__name {
+  color: #2980b9;
+  margin-top: 16px;
+}
+
+.team-section__occupation {
+  margin-top: 6px;
 >>>>>>> master
 }
