@@ -447,6 +447,12 @@ img {
   line-height: auto;
 }
 
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -461,4 +467,108 @@ input[type="radio"].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.client_head {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.client_head__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  color: #2980b9;
+  margin-bottom: 45px;
+}
+
+.client_head__title::after {
+  display: block;
+  background-color: #287eb8;
+  width: 30px;
+  height: 5px;
+  content: '';
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.client_head__lorem {
+  width: 360px;
+  font-size: 13px;
+  color: #616161;
+}
+
+.client_list {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 85px;
+  list-style: none;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.client_list__link {
+  position: relative;
+  display: block;
+}
+
+.client_list__link::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #287eb8;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.client_list__link:hover,
+.client_list__link:focus,
+.client_list__link:hover::after,
+.client_list__link:focus::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.client_info {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column wrap;
+  text-align: center;
+  align-content: center;
+  font-size: 18px;
+  color: #616161;
+  list-style: none;
+}
+
+.client_info__citation {
+  width: 740px;
+  margin-bottom: 40px;
+}
+
+.client_info__autor {
+  font-weight: bold;
+}
+
+.client_info__founder {
+  color: #287eb8;
 }
