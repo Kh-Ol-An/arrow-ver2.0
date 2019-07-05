@@ -488,16 +488,6 @@ input[type="radio"].visually-hidden {
   margin-bottom: 45px;
 }
 
-.client_head__title::after {
-  display: block;
-  background-color: #287eb8;
-  width: 30px;
-  height: 5px;
-  content: '';
-  margin: 0 auto;
-  margin-top: 15px;
-}
-
 .client_head__lorem {
   width: 360px;
   font-size: 13px;
@@ -514,6 +504,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
   padding-bottom: 20px;
   position: relative;
+  border-bottom: #2980b9;
 }
 
 .client_list__link {
@@ -535,8 +526,8 @@ input[type="radio"].visually-hidden {
   transform: translateX(-50%);
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .client_list__link:hover,
@@ -571,4 +562,14 @@ input[type="radio"].visually-hidden {
 
 .client_info__founder {
   color: #287eb8;
+}
+
+.client_btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100%;
 }
