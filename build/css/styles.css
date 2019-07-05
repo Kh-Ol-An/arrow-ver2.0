@@ -69,6 +69,25 @@
   text-align: center;
 }
 
+.header__scroll_button {
+  text-transform: uppercase;
+}
+
+*,
+*::before,
+*::after,
+.header__more_button,
+.header__scroll_button {
+  margin: 0;
+  padding: 0;
+}
+
+.header__scroll_button::before {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .main_arrow__left::after,
 .main_arrow__right::after,
 .main_arrow,
@@ -475,8 +494,6 @@ html {
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 img {
@@ -565,6 +582,7 @@ body {
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
+  z-index: 1;
 }
 
 .logo_name {
@@ -579,11 +597,35 @@ body {
 }
 
 .header__more_button {
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 158px;
+  height: 40px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
   margin-bottom: 230px;
 }
 
 .header__scroll_button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 15px;
+  color: #ffffff;
   margin-bottom: 50px;
+}
+
+.header__scroll_button::before {
+  display: inline-block;
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-image: url("./images/png/mouse_scrolling-50.png");
+  background-color: #fff;
 }
 
 .main_arrow {
@@ -595,7 +637,15 @@ body {
   left: 0;
 }
 
+.main_arrow__left::after {
+  display: inline-block;
+}
+
 .main_arrow__right {
   width: 50%;
   right: 0;
+}
+
+.main_arrow__right::after {
+  display: inline-block;
 }
