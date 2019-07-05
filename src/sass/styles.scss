@@ -5,8 +5,6 @@
 @import './helpers/fonts'; 
 @import './helpers/mixins';
 @import './helpers/placeholders';
-
-
 @import './normalize';
 @import './base';
 @import './components/container';
@@ -14,7 +12,11 @@
 @import './components/body';
 
 @import './components/header';
+
 @import './components/services';
 @import './components/clients';
 @import './components/portfolio';
 @import './components/team';
+@import './components/offices';
+@import './components/clients';
+@import './components/footer';
