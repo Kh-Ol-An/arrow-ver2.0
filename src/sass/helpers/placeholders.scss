@@ -13,3 +13,25 @@
 %uppercase {
   text-transform: uppercase;
 }
+
+// MAIN ARROW
+%main_arrow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+}
+
+%main_arrow_left {
+  @extend %main_arrow;
+  left: 0;
+  content: '';
+  background: linear-gradient(to bottom left, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+%main_arrow_right {
+  @extend %main_arrow;
+  right: 0;
+  content: '';
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 1) 50%);
+}

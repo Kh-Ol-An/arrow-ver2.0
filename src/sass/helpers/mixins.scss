@@ -3,13 +3,20 @@
   justify-content: $between;
 }
 
-@mixin flex_around($flex: flex, $around: space-around) {
-  display: $flex;
-  justify-content: $around;
-}
-
 @mixin flex_center($flex: flex, $j_center: center, $a_center: center) {
   display: $flex;
   justify-content: $j_center;
   align-items: $a_center;
+}
+
+@mixin flex_a_center($flex: flex, $column: column, $center: center) {
+  display: $flex;
+  flex-direction: $column;
+  align-items: $center;
+}
+
+@mixin flex_a_between($flex: flex, $column: column, $between: space-between) {
+  display: $flex;
+  flex-direction: $column;
+  justify-content: $between;
 }

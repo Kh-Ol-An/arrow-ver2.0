@@ -1,5 +1,8 @@
 body {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
+  font-family: $family_base;
+  font-style: $style_base;
+  font-weight: $weight_base;
+  font-size: $size_base;
+  color: $color_base;
+  line-height: 1.5;
 }

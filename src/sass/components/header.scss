@@ -1,0 +1,83 @@
+.header {
+  height: 960px;
+  position: relative;
+  background-image: url('../images/hero-01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @include flex_a_between;
+}
+
+.nav {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 114px;
+  @include flex_between;
+  align-items: center;
+
+  &__logo_link {
+    @extend %link;
+  }
+
+  &__list {
+    @extend %list;
+    width: 488px;
+    @include flex_between;
+  }
+
+  &__link {
+    @extend %link;
+    font-size: $size_base_header;
+    color: $color_base;
+  }
+}
+
+.header__contents {
+  @include flex_a_center;
+}
+
+.logo_name {
+  margin-bottom: 40px;
+}
+
+.header__text {
+  color: $color_base;
+  font-size: $size_base_header;
+  @extend %title;
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.header__more_button {
+  margin-bottom: 230px;
+}
+
+.header__scroll_button {
+  margin-bottom: 50px;
+}
+
+.main_arrow {
+  @extend %main_arrow;
+  height: 22.7373%;
+
+  &__left {
+    @extend %main_arrow;
+    width: 50%;
+    left: 0;
+
+    &::after {
+      @extend %main_arrow_left;
+    }
+  }
+
+  &__right {
+    @extend %main_arrow;
+    width: 50%;
+    right: 0;
+  
+    &::after {
+      @extend %main_arrow_right;
+    }
+  }
+}
+
