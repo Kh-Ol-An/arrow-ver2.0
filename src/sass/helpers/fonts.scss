@@ -1,11 +1,11 @@
 /* raleway-300 - latin */
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway_L';
   font-style: normal;
   font-weight: 300;
   src: local('Raleway Light'), local('Raleway-Light'),
-    url('../fonts/raleway-v13-latin-300.woff2') format('woff2'),
-    url('../fonts/raleway-v13-latin-300.woff') format('woff');
+    url('../../fonts/raleway-v13-latin-300.woff2') format('woff2'),
+    url('../../fonts/raleway-v13-latin-300.woff') format('woff');
 }
 /* raleway-regular - latin */
 @font-face {
@@ -13,26 +13,26 @@
   font-style: normal;
   font-weight: 400;
   src: local('Raleway'), local('Raleway-Regular'),
-    url('../fonts/raleway-v13-latin-regular.woff2') format('woff2'),
-    url('../fonts/raleway-v13-latin-regular.woff') format('woff');
+    url('../../fonts/raleway-v13-latin-regular.woff2') format('woff2'),
+    url('../../fonts/raleway-v13-latin-regular.woff') format('woff');
 }
 /* raleway-700 - latin */
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway_BD';
   font-style: normal;
   font-weight: 700;
   src: local('Raleway Bold'), local('Raleway-Bold'),
-    url('../fonts/raleway-v13-latin-700.woff2') format('woff2'),
-    url('../fonts/raleway-v13-latin-700.woff') format('woff');
+    url('../../fonts/raleway-v13-latin-700.woff2') format('woff2'),
+    url('../../fonts/raleway-v13-latin-700.woff') format('woff');
 }
 /* raleway-900 - latin */
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway_BK';
   font-style: normal;
   font-weight: 900;
   src: local('Raleway Black'), local('Raleway-Black'),
-    url('../fonts/raleway-v13-latin-900.woff2') format('woff2'),
-    url('../fonts/raleway-v13-latin-900.woff') format('woff');
+    url('../../fonts/raleway-v13-latin-900.woff2') format('woff2'),
+    url('../../fonts/raleway-v13-latin-900.woff') format('woff');
 }
 /* lato-regular - latin */
 @font-face {
@@ -40,15 +40,15 @@
   font-style: normal;
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'),
-    url('../fonts/lato-v15-latin-regular.woff2') format('woff2'),
-    url('../fonts/lato-v15-latin-regular.woff') format('woff');
+    url('../../fonts/lato-v15-latin-regular.woff2') format('woff2'),
+    url('../../fonts/lato-v15-latin-regular.woff') format('woff');
 }
 /* lato-700italic - latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Lato_I_BD';
   font-style: italic;
   font-weight: 700;
   src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
-    url('../fonts/lato-v15-latin-700italic.woff2') format('woff2'),
-    url('../fonts/lato-v15-latin-700italic.woff') format('woff');
+    url('../../fonts/lato-v15-latin-700italic.woff2') format('woff2'),
+    url('../../fonts/lato-v15-latin-700italic.woff') format('woff');
 }

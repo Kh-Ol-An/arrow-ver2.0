@@ -6,8 +6,7 @@ html {
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  @extend %mar_pad_zer;
 }
 
 img {

@@ -2,15 +2,17 @@
    Import partials below
 */
 @import './helpers/constants';
-@import './helpers/fonts';
+@import './helpers/fonts'; 
 @import './helpers/mixins';
 @import './helpers/placeholders';
 
 
 @import './normalize';
 @import './base';
+@import './components/container';
 @import './helpers/visuallyhidden';
-
+// @import './components/body';
+@import './components/header';
 @import './components/portfolio';
 @import './components/team';
-
+@import './components/clients';
