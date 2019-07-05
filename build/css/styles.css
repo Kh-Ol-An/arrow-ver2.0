@@ -56,6 +56,63 @@
   src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url("../fonts/lato-v15-latin-700italic.woff2") format("woff2"), url("../fonts/lato-v15-latin-700italic.woff") format("woff");
 }
 
+.nav__logo_link,
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.header__text {
+  text-align: center;
+}
+
+.header__scroll_button {
+  text-transform: uppercase;
+}
+
+*,
+*::before,
+*::after,
+.header__more_button,
+.header__scroll_button {
+  margin: 0;
+  padding: 0;
+}
+
+.header__scroll_button::before {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.main_arrow__left::after,
+.main_arrow__right::after,
+.main_arrow,
+.main_arrow__left,
+.main_arrow__right {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+}
+
+.main_arrow__left::after {
+  left: 0;
+  content: '';
+  background: -webkit-gradient(linear, right top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
+  background: linear-gradient(to bottom left, rgba(0, 0, 0, 0) 50%, white 50%);
+}
+
+.main_arrow__right::after {
+  right: 0;
+  content: '';
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 50%, white 50%);
+}
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -437,8 +494,6 @@ html {
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 img {
@@ -469,11 +524,57 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.header {
+  height: 960px;
+  position: relative;
+  background-image: url("../images/hero-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+=======
 .client_head {
+>>>>>>> master
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+<<<<<<< HEAD
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.nav {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 114px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.nav__list {
+  width: 488px;
+=======
   flex-flow: column wrap;
   align-content: center;
   text-align: center;
@@ -505,10 +606,21 @@ input[type="radio"].visually-hidden {
 }
 
 .client_list {
+>>>>>>> master
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
+<<<<<<< HEAD
+}
+
+.nav__link {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.header__contents {
+=======
   margin-top: 70px;
   margin-bottom: 85px;
   list-style: none;
@@ -548,10 +660,82 @@ input[type="radio"].visually-hidden {
 }
 
 .client_info {
+>>>>>>> master
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+<<<<<<< HEAD
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo_name {
+  margin-bottom: 40px;
+}
+
+.header__text {
+  color: #ffffff;
+  font-size: 18px;
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.header__more_button {
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 158px;
+  height: 40px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 230px;
+}
+
+.header__scroll_button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.header__scroll_button::before {
+  display: inline-block;
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-image: url("./images/png/mouse_scrolling-50.png");
+  background-color: #fff;
+}
+
+.main_arrow {
+  height: 22.7373%;
+}
+
+.main_arrow__left {
+  width: 50%;
+  left: 0;
+}
+
+.main_arrow__left::after {
+  display: inline-block;
+}
+
+.main_arrow__right {
+  width: 50%;
+  right: 0;
+}
+
+.main_arrow__right::after {
+  display: inline-block;
+=======
   flex-flow: column wrap;
   text-align: center;
   align-content: center;
@@ -571,4 +755,5 @@ input[type="radio"].visually-hidden {
 
 .client_info__founder {
   color: #287eb8;
+>>>>>>> master
 }
