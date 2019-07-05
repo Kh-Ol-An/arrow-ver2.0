@@ -8,7 +8,7 @@
   font-family: 'Raleway_L';
   font-style: normal;
   font-weight: 300;
-  src: local("Raleway Light"), local("Raleway-Light"), url("../fonts/raleway-v13-latin-300.woff2") format("woff2"), url("../fonts/raleway-v13-latin-300.woff") format("woff");
+  src: local("Raleway Light"), local("Raleway-Light"), url("../../fonts/raleway-v13-latin-300.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-300.woff") format("woff");
 }
 
 /* raleway-regular - latin */
@@ -17,7 +17,7 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local("Raleway"), local("Raleway-Regular"), url("../fonts/raleway-v13-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v13-latin-regular.woff") format("woff");
+  src: local("Raleway"), local("Raleway-Regular"), url("../../fonts/raleway-v13-latin-regular.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-regular.woff") format("woff");
 }
 
 /* raleway-700 - latin */
@@ -26,7 +26,7 @@
   font-family: 'Raleway_BD';
   font-style: normal;
   font-weight: 700;
-  src: local("Raleway Bold"), local("Raleway-Bold"), url("../fonts/raleway-v13-latin-700.woff2") format("woff2"), url("../fonts/raleway-v13-latin-700.woff") format("woff");
+  src: local("Raleway Bold"), local("Raleway-Bold"), url("../../fonts/raleway-v13-latin-700.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-700.woff") format("woff");
 }
 
 /* raleway-900 - latin */
@@ -35,7 +35,7 @@
   font-family: 'Raleway_BK';
   font-style: normal;
   font-weight: 900;
-  src: local("Raleway Black"), local("Raleway-Black"), url("../fonts/raleway-v13-latin-900.woff2") format("woff2"), url("../fonts/raleway-v13-latin-900.woff") format("woff");
+  src: local("Raleway Black"), local("Raleway-Black"), url("../../fonts/raleway-v13-latin-900.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-900.woff") format("woff");
 }
 
 /* lato-regular - latin */
@@ -44,7 +44,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"), url("../fonts/lato-v15-latin-regular.woff2") format("woff2"), url("../fonts/lato-v15-latin-regular.woff") format("woff");
+  src: local("Lato Regular"), local("Lato-Regular"), url("../../fonts/lato-v15-latin-regular.woff2") format("woff2"), url("../../fonts/lato-v15-latin-regular.woff") format("woff");
 }
 
 /* lato-700italic - latin */
@@ -53,7 +53,7 @@
   font-family: 'Lato_I_BD';
   font-style: italic;
   font-weight: 700;
-  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url("../fonts/lato-v15-latin-700italic.woff2") format("woff2"), url("../fonts/lato-v15-latin-700italic.woff") format("woff");
+  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url("../../fonts/lato-v15-latin-700italic.woff2") format("woff2"), url("../../fonts/lato-v15-latin-700italic.woff") format("woff");
 }
 
 .nav__logo_link,
@@ -561,6 +561,33 @@ body {
 
 .nav__list {
   width: 488px;
+<<<<<<< HEAD
+=======
+=======
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.client_head__title {
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  color: #2980b9;
+  margin-bottom: 45px;
+}
+
+.client_head__lorem {
+  width: 360px;
+  font-size: 13px;
+  color: #616161;
+}
+
+.client_list {
+>>>>>>> master
+>>>>>>> master
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -573,6 +600,51 @@ body {
 }
 
 .header__contents {
+<<<<<<< HEAD
+=======
+=======
+  margin-top: 70px;
+  margin-bottom: 85px;
+  list-style: none;
+  padding-bottom: 20px;
+  position: relative;
+  border-bottom: #2980b9;
+}
+
+.client_list__link {
+  position: relative;
+  display: block;
+}
+
+.client_list__link::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #287eb8;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.client_list__link:hover,
+.client_list__link:focus,
+.client_list__link:hover::after,
+.client_list__link:focus::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.client_info {
+>>>>>>> master
+>>>>>>> master
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -747,4 +819,21 @@ body {
 
 .client_info__founder {
   color: #287eb8;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+
+.client_btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100%;
+=======
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
 }
