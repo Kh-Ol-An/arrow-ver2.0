@@ -1,0 +1,26 @@
+.office_head {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+  margin-top: 65px;
+
+  &__title {
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2980b9;
+    margin-bottom: 45px;
+
+    &::after {
+      display: block;
+      margin: 0 auto;
+      content: '';
+      background-color: #2980b9;
+      width: 30px;
+      height: 6px;
+      margin-top: 16px;
+    }
+  }
+}

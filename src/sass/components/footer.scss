@@ -1,0 +1,96 @@
+.footer {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url('../../images/BG.png');
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+  position: relative; 
+}
+
+.bg{
+  background-image: url('../../Images/Sep-top.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer_head {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+  padding-top: 200px;
+  margin-bottom: 60px;
+
+  &__title {
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 25px;
+
+    &::after {
+      display: block;
+      margin: 0 auto;
+      content: '';
+      background-color: #ffffff;
+      width: 30px;
+      height: 5px;
+      margin-top: 15px;
+    }
+  }
+
+  &__lorem {
+    width: 360px;
+    font-size: 13px;
+    color: #ffffff;
+  }
+}
+
+.footer_list{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  list-style: none;
+  margin-bottom: 85px;
+
+  &__link{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-content: center;
+    width: 200px;
+    padding: 10px;
+    
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+
+  &__icon{
+    width: 60px;
+    margin: 0 auto;
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  &__title{
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  &_info{
+    font-size: 15px;
+  }
+}
+
+.footer_license{
+  text-align: center;
+  font-size: 15px;
+}
+
+
