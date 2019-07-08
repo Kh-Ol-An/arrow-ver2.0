@@ -1,19 +1,28 @@
 /*
    Import partials below
 */
+
+// helpers
 @import './helpers/constants';
 @import './helpers/fonts'; 
 @import './helpers/mixins';
 @import './helpers/placeholders';
+@import './helpers/visuallyhidden';
+
+// reset
 @import './normalize';
 @import './base';
+
+// components
 @import './components/body';
 @import './components/container';
-@import './helpers/visuallyhidden';
+@import './media';
+
+// body
 @import './components/header';
+@import './components/services';
 @import './components/portfolio';
 @import './components/team';
-@import './components/clients';
-@import './components/services';
 @import './components/offices';
-@import './components/footer.scss'
+@import './components/clients';
+@import './components/footer';
