@@ -1,16 +1,14 @@
-.header {
+.hdr {
   height: 960px;
   position: relative;
   background-image: url('../images/hero-01.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
+  @extend %bg_position;
   background-size: cover;
-  @include flex_a_between;
+  @include flex($axis: column, $cross: stretch);
 
   &__nav {
     height: 114px;
-    @include flex_between;
-    align-items: center;
+    @include flex;
   }
 
   &__logo_link {
@@ -20,7 +18,7 @@
   &__list {
     @extend %list;
     width: 488px;
-    @include flex_between;
+    @include flex;
   }
 
   &__link {
@@ -30,28 +28,55 @@
   }
 }
 
-.header__contents {
-  @include flex_a_center;
+.hdr__media_list {
+  display: none;
+  @extend %list;
+}
+
+.hdr__media_btn {
+  @extend %btn_zer;
+  position: relative;
+}
+
+.hdr__media_icon {
+  width: 50px;
+  height: 50px;
+  fill: $color_base;
+}
+
+.hdr_media_item__list {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 16px;
+  @extend %list;
+}
+
+.hdr_media_item__item:not(:last-of-type) {
+    margin-bottom: 18px;
+  }
+
+.hdr__contents {
+  @include flex($axis: column, $main: flex-start);
   z-index: 1;
 }
 
-.header__logo_name {
+.hdr__logo_name {
   margin-bottom: 40px;
 }
 
-.header__text {
+.hdr__text {
   color: $color_base;
   font-size: $size_base_header;
   text-align: center;
-  width: 40%;
+  width: 60%;
   margin-bottom: 30px;
 }
 
-.header__more_button {
-  @extend %mar_pad_zer;
+.hdr__more_btn {
+  @extend %btn_zer;
   border: 2px solid $color_base;
   border-radius: 2px;
-  background-color: rgba(0, 0, 0, 0);
   width: 158px;
   height: 40px;
   text-align: center;
@@ -62,11 +87,9 @@
   cursor: pointer;
 }
 
-.header__scroll_button {
+.hdr__scroll_btn {
   position: relative;
-  @extend %mar_pad_zer;
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
+  @extend %btn_zer;
   font-family: $family_releway_L;
   font-size: $size_button_header;
   color: $color_base;
@@ -87,14 +110,9 @@
 }
 
 .main_arrow {
-  @extend %main_arrow;
-  height: 206px;
-  bottom: 0;
-
   &__left {
     @extend %main_arrow;
-    width: 50%;
-    left: 0;
+    left: -1px;
     background: linear-gradient(
       to bottom left,
       rgba(0, 0, 0, 0) 50%,
@@ -104,8 +122,7 @@
 
   &__right {
     @extend %main_arrow;
-    width: 50%;
-    right: 0;
+    right: -1px;
     background: linear-gradient(
       to bottom right,
       rgba(0, 0, 0, 0) 50%,

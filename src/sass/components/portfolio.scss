@@ -93,58 +93,48 @@
   height: 24px;
 }
 
-
 .main_arrow_bottom {
-  @extend %main_arrow;
-  height: 206px;
-
   &__left {
     @extend %main_arrow;
-    width: 50%;
-    left: 0;
+    left: -1px;
     background: linear-gradient(
       to bottom left,
-      rgba(0,0,0,0) 50%,
+      rgba(0, 0, 0, 0) 50%,
       rgba(255, 255, 255, 1) 50%
     );
   }
 
   &__right {
     @extend %main_arrow;
-    width: 50%;
-    right: 0;
+    right: -1px;
     background: linear-gradient(
       to bottom right,
-      rgba(0,0,0,0) 50%,
+      rgba(0, 0, 0, 0) 50%,
       rgba(255, 255, 255, 1) 50%
     );
-  } 
+  }
 }
 
 .main_arrow_top {
-  @extend %main_arrow;
-  height: 206px;
-  top: 0;
-
   &__left {
     @extend %main_arrow;
-    width: 50%;
-    left: 0;
+    top: -2px;
+    left: 1px;
     background: linear-gradient(
       to top right,
-      rgba(0,0,0,0) 50%,
+      rgba(0, 0, 0, 0) 50%,
       rgba(255, 255, 255, 1) 50%
     );
   }
 
   &__right {
     @extend %main_arrow;
-    width: 50%;
-    right: 0;
+    top: -2px;
+    right: 1px;
     background: linear-gradient(
       to top left,
-      rgba(0,0,0,0) 50%,
+      rgba(0, 0, 0, 0) 50%,
       rgba(255, 255, 255, 1) 50%
     );
-  } 
+  }
 }

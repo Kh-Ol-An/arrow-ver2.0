@@ -1,3 +1,14 @@
+// FLEX
+@mixin flex($flex: flex, $axis: row, $main: space-between, $cross: center) {
+  display: $flex;
+  flex-direction: $axis;
+  justify-content: $main;
+  align-items: $cross;
+}
+
+
+
+// Delete
 @mixin flex_between($flex: flex, $between: space-between) {
   display: $flex;
   justify-content: $between;

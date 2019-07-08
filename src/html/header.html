@@ -1,6 +1,6 @@
-<header class="header">
-  <nav class="header__nav container">
-    <a href="#" class="header__logo_link">
+<header class="hdr">
+  <nav class="hdr__nav container">
+    <a href="#" class="hdr__logo_link">
       <span class="visually-hidden">Arrow</span>
       <img
         src="./images/png/logo_white.png"
@@ -9,17 +9,34 @@
         height="43"
       />
     </a>
-    <ul class="header__list">
-      <li><a href="#" class="header__link">Services</a></li>
-      <li><a href="#" class="header__link">Portfolio</a></li>
-      <li><a href="#" class="header__link">Team</a></li>
-      <li><a href="#" class="header__link">Offices</a></li>
-      <li><a href="#" class="header__link">Clients</a></li>
-      <li><a href="#" class="header__link">Contact</a></li>
+    <ul class="hdr__media_list">
+      <li class="hdr__media_item">
+        <button class="hdr__media_btn">
+          <svg class="hdr__media_icon">
+            <use href="./images//icon/icon-menu.svg#icon-menu1" />
+          </svg>
+          <ul class="hdr_media_item__list">
+            <li class="hdr_media_item__item"><a href="#" class="hdr__link">Services</a></li>
+            <li class="hdr_media_item__item"><a href="#" class="hdr__link">Portfolio</a></li>
+            <li class="hdr_media_item__item"><a href="#" class="hdr__link">Team</a></li>
+            <li class="hdr_media_item__item"><a href="#" class="hdr__link">Offices</a></li>
+            <li class="hdr_media_item__item"><a href="#" class="hdr__link">Clients</a></li>
+            <li class="hdr_media_item__item"><a href="#" class="hdr__link">Contact</a></li>
+          </ul>
+        </button>
+      </li>
+    </ul>
+    <ul class="hdr__list">
+      <li><a href="#" class="hdr__link">Services</a></li>
+      <li><a href="#" class="hdr__link">Portfolio</a></li>
+      <li><a href="#" class="hdr__link">Team</a></li>
+      <li><a href="#" class="hdr__link">Offices</a></li>
+      <li><a href="#" class="hdr__link">Clients</a></li>
+      <li><a href="#" class="hdr__link">Contact</a></li>
     </ul>
   </nav>
-  <div class="header__contents">
-    <div class="header__logo_name">
+  <div class="hdr__contents">
+    <div class="hdr__logo_name">
       <a href="#">
         <img
           src="./images/png/logotip.png"
@@ -29,18 +46,16 @@
         />
       </a>
     </div>
-    <p class="header__text">
+    <p class="hdr__text">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eum
       dolore enim cupiditate molestias, nemo veniam expedita reprehenderit,
       natus nostrum soluta assumenda quibusdam sunt vitae.
     </p>
-    <button class="header__more_button">Know More</button>
-    <button class="header__scroll_button">Scroll Down</button>
+    <button class="hdr__more_btn">Know More</button>
+    <button class="hdr__scroll_btn">Scroll Down</button>
   </div>
 
   <!-- MAIN ARROW -->
-  <div class="main_arrow">
-    <div class="main_arrow__left"></div>
-    <div class="main_arrow__right"></div>
-  </div>
+  <div class="main_arrow__left"></div>
+  <div class="main_arrow__right"></div>
 </header>

@@ -1,6 +1,6 @@
 .services {
   padding-top: 58px;
-  // padding-bottom: 20px;
+  padding-bottom: 18px;
 
   &__title {
     @extend %upper_center;
@@ -16,17 +16,19 @@
 
   &__list {
     @extend %list;
-    @include flex_around;
-  }
-
-  &__link {
-    @extend %link;
-    color: $color_services;
+    @include flex($main: space-around, $cross: stretch);
   }
 
   &__item {
     width: 195px;
     position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  &__link {
+    @extend %link;
+    color: $color_services;
 
     &::after {
       @extend %pseudo;
@@ -35,24 +37,21 @@
       height: 63px;
       top: -76px;
     }
+  }
 
-    &:nth-of-type(1)::after {
-      background-image: url('../images/png/idea-icon.png');
-      width: 39px;
-      // height: 60px;
-    }
+  &__idea::after {
+    background-image: url('../images/png/idea-icon.png');
+    width: 39px;
+  }
 
-    &:nth-of-type(2)::after {
-      background-image: url('../images/png/design-icon.png');
-      width: 63px;
-      // height: 63px;
-    }
+  &__design::after {
+    background-image: url('../images/png/design-icon.png');
+    width: 63px;
+  }
 
-    &:nth-of-type(3)::after {
-      background-image: url('../images/png/code-icon.png');
-      width: 65px;
-      // height: 57px;
-    }
+  &__code::after {
+    background-image: url('../images/png/code-icon.png');
+    width: 65px;
   }
 }
 
@@ -62,8 +61,9 @@
   margin-bottom: 24px;
 }
 
-.services__text {
+.services_item__text {
   font-size: $family_releway_L;
   font-size: $size_base;
   text-align: center;
 }
+
