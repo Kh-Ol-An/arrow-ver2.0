@@ -58,3 +58,19 @@
   height: 206px;
   bottom: -1px;
 }
+
+
+%under_line {
+  @extend %pseudo;
+  margin-top: 9px;
+  background-color: $color_title;
+  width: 30px;
+  height: 5px;
+}
+
+%main_arrow {
+  position: absolute;
+  width: 50%;
+  height: 206px;
+  bottom: -1px;
+ }
