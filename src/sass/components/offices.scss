@@ -1,3 +1,28 @@
+.main_arrow {
+  &__left {
+    @extend %main_arrow;
+    left: 1px;
+    top: -1px;
+    background: linear-gradient(
+      to bottom left,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  }
+ 
+  &__right {
+    @extend %main_arrow;
+    right:1px;
+    top:-1px;
+    background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(0, 0, 0, 0) 50%
+      
+    );
+  }
+ }
+
 .office_head {
   display: flex;
   flex-flow: column wrap;
@@ -23,4 +48,35 @@
       margin-top: 16px;
     }
   }
+
+  &__lorem {
+    width: 360px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #ffffff;
+  }
 }
+
+.main_arrow {
+  &__left {
+    @extend %main_arrow;
+    left: -1px;
+    
+    background: linear-gradient(
+      to bottom left,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  }
+ 
+  &__right {
+    @extend %main_arrow;
+    right:-1px;
+    background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(0, 0, 0, 0) 50%
+      
+    );
+  }
+ }
