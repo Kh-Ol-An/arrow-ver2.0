@@ -1,5 +1,4 @@
 .client_head {
-  
   text-align: center;
   margin-top: 65px;
   margin-bottom: 70px;
@@ -24,7 +23,7 @@
   }
 
   &__lorem {
-    width: 360px;
+    max-width: 360px;
     margin: 0 auto;
     font-size: 13px;
     color: #616161;
@@ -34,20 +33,21 @@
 
 .client_list {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   margin-top: 70px;
   margin-bottom: 85px;
   list-style: none;
   padding-bottom: 20px;
-  width: 1140px;
   margin: 0 auto;
   position: relative;
   border-bottom: 1px solid #2980b9;
+  max-width: 1170px;
 
   &__link {
     position: relative;
     display: block;
-    &:hover{
+    &:hover {
       transform: scale(1.05);
     }
 
@@ -79,7 +79,7 @@
 
 .slider {
   position: relative;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .slider_info {
@@ -90,13 +90,16 @@
   margin-bottom: 25px;
 
   &__citation {
-    width: 740px;
+    max-width: 740px;
     margin: 0 auto;
     margin-bottom: 40px;
+    margin-top: 60px;
   }
 
   &__autor {
     font-weight: bold;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   &__founder {
@@ -129,4 +132,69 @@
   width: 50px;
   height: 50px;
   padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .client {
+    padding: 0 10px;
+  }
+
+  .client_list {
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border: none;
+    &__link {
+      width: 32%;
+    }
+    &__item {
+      display: block;
+      & img {
+        width: 100%;
+      }
+    }
+  }
+
+  .slider_info {
+    font-size: 13px;
+  }
+  .slider_btn {
+    top: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 767px) {
+  .slider_btn {
+    top: 65%;
+  }
+
+  .client_list {
+    &__link {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  .client_list {
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border: none;
+    &__link {
+      width: 45%;
+    }
+    &__item {
+      display: block;
+      & img {
+        width: 100%;
+      }
+    }
+  }
 }
