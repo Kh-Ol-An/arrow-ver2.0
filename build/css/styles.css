@@ -810,7 +810,7 @@ input[type="radio"].visually-hidden {
   font-size: 13px;
   margin: 0 auto;
   text-align: center;
-  width: 320px;
+  width: 400px;
   margin-bottom: 60px;
 }
 
@@ -1241,5 +1241,11 @@ input[type="radio"].visually-hidden {
 
   .team-section__item {
     margin: 0 10px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .team-section__paragraph {
+    width: auto;
   }
 }
