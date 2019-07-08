@@ -59,9 +59,9 @@
   display: inline-block;
 }
 
-.hdr__list,
 .hdr__media_list,
 .hdr_media_item__list,
+.hdr__list,
 .services__list {
   list-style: none;
 }
@@ -119,6 +119,10 @@
   transform: translateX(-50%);
 }
 
+<<<<<<< HEAD
+.hdr__main_arrow_left,
+.hdr__main_arrow_right,
+=======
 .main_arrow__left,
 .main_arrow__right,
 .main_arrow_bottom__left,
@@ -142,12 +146,18 @@
 
 .main_arrow__left,
 .main_arrow__right,
+>>>>>>> master
 .main_arrow_bottom__left,
 .main_arrow_bottom__right,
 .main_arrow_top__left,
 .main_arrow_top__right,
+<<<<<<< HEAD
+.main_arrow__left,
+.main_arrow__right {
+=======
 .main_arrow_bot__left,
 .main_arrow_bot__right {
+>>>>>>> master
   position: absolute;
   width: 50%;
   height: 206px;
@@ -567,7 +577,7 @@ body {
 }
 
 .container {
-  width: 60.9375%;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -589,6 +599,7 @@ body {
 }
 
 .hdr__nav {
+  width: 100%;
   height: 114px;
   display: -webkit-box;
   display: flex;
@@ -599,24 +610,6 @@ body {
   justify-content: space-between;
   -webkit-box-align: center;
   align-items: center;
-}
-
-.hdr__list {
-  width: 488px;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  align-items: center;
-}
-
-.hdr__link {
-  font-size: 18px;
-  color: #ffffff;
 }
 
 .hdr__media_list {
@@ -640,8 +633,37 @@ body {
   top: 16px;
 }
 
-.hdr_media_item__item:not(:last-of-type) {
+.hdr_media_item__item {
   margin-bottom: 18px;
+}
+
+.hdr__list {
+  width: 500px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.hdr__item {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.hdr__link {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.hdr__link:hover {
+  font-size: 22px;
 }
 
 .hdr__contents {
@@ -700,13 +722,17 @@ body {
   top: -60px;
 }
 
-.main_arrow__left {
+.hdr__main_arrow_left {
   left: -1px;
   background: -webkit-gradient(linear, right top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
   background: linear-gradient(to bottom left, rgba(0, 0, 0, 0) 50%, white 50%);
 }
 
+<<<<<<< HEAD
+.hdr__main_arrow_right {
+=======
 .main_arrow__right {
+>>>>>>> master
   right: -1px;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 50%, white 50%);
@@ -772,7 +798,11 @@ body {
   margin-bottom: 24px;
 }
 
+<<<<<<< HEAD
+.services__item__text {
+=======
 .services_item__text {
+>>>>>>> master
   font-size: "Raleway_L";
   font-size: 13px;
   text-align: center;
@@ -882,7 +912,18 @@ body {
 }
 
 .main_arrow_bottom__right {
+<<<<<<< HEAD
   right: 0;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  right: 0;
+=======
+>>>>>>> master
+  right: -1px;
+>>>>>>> master
+>>>>>>> master
   background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 50%, white 50%);
 }
@@ -1021,6 +1062,13 @@ body {
   color: #000;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
 .office {
   max-height: 950px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../../Images/hero-03.jpg");
@@ -1031,6 +1079,11 @@ body {
   position: relative;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
 .main_arrow__left {
   left: 1px;
   top: -1px;
@@ -1053,7 +1106,19 @@ body {
   flex-flow: column wrap;
   align-content: center;
   text-align: center;
+<<<<<<< HEAD
   padding-top: 270px;
+=======
+<<<<<<< HEAD
+  margin-top: 65px;
+=======
+<<<<<<< HEAD
+  margin-top: 65px;
+=======
+  padding-top: 270px;
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
 }
 
 .office_head__title {
@@ -1076,12 +1141,44 @@ body {
 }
 
 .office_head__lorem {
+<<<<<<< HEAD
   max-width: 360px;
+=======
+<<<<<<< HEAD
+  width: 360px;
+=======
+<<<<<<< HEAD
+  width: 360px;
+=======
+  max-width: 360px;
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
   margin: 0 auto;
   font-size: 13px;
   color: #ffffff;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
+.main_arrow__left {
+  left: -1px;
+  background: -webkit-gradient(linear, right top, left bottom, color-stop(50%, white), color-stop(50%, rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom left, white 50%, rgba(0, 0, 0, 0) 50%);
+}
+
+.main_arrow__right {
+  right: -1px;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, white), color-stop(50%, rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom right, white 50%, rgba(0, 0, 0, 0) 50%);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
 .map {
   max-width: 760px;
   margin: 0 auto;
@@ -1105,6 +1202,11 @@ body {
   bottom: -1px;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 50%, white 50%);
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
 }
 
 .client_head {
@@ -1256,8 +1358,25 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../../images/BG.png");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../../images/BG.png");
   background-position: center;
+<<<<<<< HEAD
   background-size: cover;
   padding-bottom: 60px;
+=======
+<<<<<<< HEAD
+  background: cover;
+  height: 750px;
+  margin-bottom: 60px;
+=======
+<<<<<<< HEAD
+  background: cover;
+  height: 750px;
+  margin-bottom: 60px;
+=======
+  background-size: cover;
+  padding-bottom: 60px;
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
   position: relative;
 }
 
@@ -1302,7 +1421,19 @@ body {
 }
 
 .footer_head__lorem {
+<<<<<<< HEAD
   max-width: 360px;
+=======
+<<<<<<< HEAD
+  width: 360px;
+=======
+<<<<<<< HEAD
+  width: 360px;
+=======
+  max-width: 360px;
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
   margin: 0 auto;
   font-size: 13px;
   color: #ffffff;
@@ -1317,7 +1448,19 @@ body {
   text-align: center;
   -webkit-box-pack: justify;
   justify-content: space-between;
+<<<<<<< HEAD
   max-width: 1000px;
+=======
+<<<<<<< HEAD
+  width: 1000px;
+=======
+<<<<<<< HEAD
+  width: 1000px;
+=======
+  max-width: 1000px;
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
   margin: 0 auto;
   list-style: none;
   margin-bottom: 85px;
@@ -1332,6 +1475,17 @@ body {
   text-align: center;
   align-content: center;
   width: 200px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  padding: 10px;
+=======
+<<<<<<< HEAD
+  padding: 10px;
+=======
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
 }
 
 .footer_list__link:hover {
@@ -1346,6 +1500,24 @@ body {
   padding-left: 15px;
   padding-top: 15px;
   margin-bottom: 15px;
+<<<<<<< HEAD
+}
+
+.footer_list__title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer_list_info {
+  font-size: 15px;
+}
+
+.footer_license {
+  text-align: center;
+  font-size: 15px;
+}
+
+=======
 }
 
 .footer_list__title {
@@ -1492,6 +1664,81 @@ body {
 
   .team-section__occupation {
     font-size: 18px;
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
+@media (max-width: 1199px) {
+  .team-section__list {
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  .team-section__item {
+    margin: 0 10px 20px;
+  }
+<<<<<<< HEAD
+}
+=======
+
+  .office_head {
+    padding-top: 160px;
+  }
+
+  .client {
+    padding: 0 10px;
+  }
+
+  .client_list {
+    max-width: 600px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border: none;
+  }
+
+  .client_list__link {
+    width: 32%;
+  }
+
+  .client_list__item {
+    display: block;
+  }
+
+  .client_list__item img {
+    width: 100%;
+  }
+
+  .slider_info {
+    font-size: 13px;
+  }
+
+  .slider_btn {
+    top: 50%;
+    position: absolute;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 320px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .footer {
+    padding: 0 10px;
+    padding-bottom: 30px;
+  }
+
+  .footer_list {
+    max-width: 599px;
+  }
+
+  .footer_head__lorem {
+    max-width: 320px;
+>>>>>>> master
+>>>>>>> master
   }
 }
 
@@ -1501,7 +1748,9 @@ body {
     margin: 0 auto;
     padding: 0 15px;
   }
+>>>>>>> master
 
+@media (max-width: 1024px) {
   .hdr {
     height: 760px;
   }
@@ -1523,8 +1772,13 @@ body {
     margin-bottom: 40px;
   }
 
+<<<<<<< HEAD
+  .hdr__main_arrow_left,
+  .hdr__main_arrow_right {
+=======
   .main_arrow__left,
   .main_arrow__right {
+>>>>>>> master
     height: 110px;
   }
 
@@ -1539,12 +1793,15 @@ body {
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
+=======
   .container {
     width: 80%;
     margin: 0 auto;
     padding: 0 15px;
   }
 
+>>>>>>> master
   .hdr__media_list {
     display: -webkit-box;
     display: flex;
@@ -1557,8 +1814,8 @@ body {
     align-items: center;
   }
 
-  .hdr__list {
-    display: none;
+  .hdr__logo_link {
+    padding-left: 6px;
   }
 
   .hdr__media_btn:hover .hdr_media_item__list,
@@ -1569,6 +1826,10 @@ body {
   .hdr__media_btn:hover .hdr__media_icon,
   .hdr__media_btn:active .hdr__media_icon {
     visibility: hidden;
+  }
+
+  .hdr__list {
+    display: none;
   }
 
   .hdr__logo_name {
@@ -1587,8 +1848,8 @@ body {
     margin-bottom: 40px;
   }
 
-  .main_arrow__left,
-  .main_arrow__right {
+  .hdr__main_arrow_left,
+  .hdr__main_arrow_right {
     height: 90px;
   }
 
@@ -1708,13 +1969,17 @@ body {
 
 @media (max-width: 425px) {
   .container {
-    width: 100%;
     padding: 0 10px;
   }
 
   .hdr {
-    display: block;
-    height: initial;
+    height: 700px;
+  }
+
+  .hdr_madia__box {
+    position: absolute;
+    top: 0;
+    right: 110px;
   }
 
   .hdr__logo_name {
@@ -1733,8 +1998,8 @@ body {
     margin-bottom: 20px;
   }
 
-  .main_arrow__left,
-  .main_arrow__right {
+  .hdr__main_arrow_left,
+  .hdr__main_arrow_right {
     height: 50px;
   }
 

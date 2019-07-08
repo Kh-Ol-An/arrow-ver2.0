@@ -1,58 +1,58 @@
 .services {
   padding-top: 58px;
   padding-bottom: 18px;
+}
 
-  &__title {
-    @extend %upper_center;
-    font-family: $family_releway_BD;
-    font-size: $size_title;
-    color: $color_title;
-    margin-bottom: 142px;
+.services__title {
+  @extend %upper_center;
+  font-family: $family_releway_BD;
+  font-size: $size_title;
+  color: $color_title;
+  margin-bottom: 142px;
 
-    &::after {
-      @extend %under_line;
-    }
+  &::after {
+    @extend %under_line;
   }
+}
 
-  &__list {
-    @extend %list;
-    @include flex($main: space-around, $cross: stretch);
+.services__list {
+  @extend %list;
+  @include flex($main: space-around, $cross: stretch);
+}
+
+.services__item {
+  width: 195px;
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.services__link {
+  @extend %link;
+  color: $color_services;
+
+  &::after {
+    @extend %pseudo;
+    @extend %bg_position;
+    @extend %translateX_center;
+    height: 63px;
+    top: -76px;
   }
+}
 
-  &__item {
-    width: 195px;
-    position: relative;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+.services__idea::after {
+  background-image: url('../images/png/idea-icon.png');
+  width: 39px;
+}
 
-  &__link {
-    @extend %link;
-    color: $color_services;
+.services__design::after {
+  background-image: url('../images/png/design-icon.png');
+  width: 63px;
+}
 
-    &::after {
-      @extend %pseudo;
-      @extend %bg_position;
-      @extend %translateX_center;
-      height: 63px;
-      top: -76px;
-    }
-  }
-
-  &__idea::after {
-    background-image: url('../images/png/idea-icon.png');
-    width: 39px;
-  }
-
-  &__design::after {
-    background-image: url('../images/png/design-icon.png');
-    width: 63px;
-  }
-
-  &__code::after {
-    background-image: url('../images/png/code-icon.png');
-    width: 65px;
-  }
+.services__code::after {
+  background-image: url('../images/png/code-icon.png');
+  width: 65px;
 }
 
 .services_item__title {
@@ -61,9 +61,8 @@
   margin-bottom: 24px;
 }
 
-.services_item__text {
+.services__item__text {
   font-size: $family_releway_L;
   font-size: $size_base;
   text-align: center;
 }
-
