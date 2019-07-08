@@ -124,9 +124,13 @@
 .main_arrow_bottom__left,
 .main_arrow_bottom__right,
 .main_arrow_top__left,
+<<<<<<< HEAD
+.main_arrow_top__right {
+=======
 .main_arrow_top__right,
 .main_arrow_bot__left,
 .main_arrow_bot__right {
+>>>>>>> master
   position: absolute;
   width: 50%;
   height: 206px;
@@ -790,7 +794,7 @@ body {
 }
 
 .portfolio-section__title {
-  font-size: 25px;
+  font-size: 28px;
   color: #fafcfe;
   font-family: 'Raleway_BD';
   text-transform: uppercase;
@@ -816,6 +820,7 @@ body {
   -webkit-box-pack: center;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 1125px;
   width: 100%;
   list-style: none;
 }
@@ -881,7 +886,11 @@ body {
 }
 
 .main_arrow_bottom__right {
+<<<<<<< HEAD
+  right: 0;
+=======
   right: -1px;
+>>>>>>> master
   background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 50%, white 50%);
 }
@@ -911,7 +920,7 @@ body {
   margin: 0 auto;
   text-align: center;
   color: #2980b9;
-  font-size: 25px;
+  font-size: 28px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -932,7 +941,7 @@ body {
   font-size: 13px;
   margin: 0 auto;
   text-align: center;
-  width: 320px;
+  width: 400px;
   margin-bottom: 60px;
 }
 
@@ -1016,9 +1025,12 @@ body {
 
 .team-section__occupation {
   margin-top: 6px;
+  font-size: 15px;
   color: #000;
 }
 
+<<<<<<< HEAD
+=======
 .office {
   max-height: 950px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../../Images/hero-03.jpg");
@@ -1029,6 +1041,7 @@ body {
   position: relative;
 }
 
+>>>>>>> master
 .main_arrow__left {
   left: 1px;
   top: -1px;
@@ -1051,7 +1064,11 @@ body {
   flex-flow: column wrap;
   align-content: center;
   text-align: center;
+<<<<<<< HEAD
+  margin-top: 65px;
+=======
   padding-top: 270px;
+>>>>>>> master
 }
 
 .office_head__title {
@@ -1074,12 +1091,28 @@ body {
 }
 
 .office_head__lorem {
+<<<<<<< HEAD
+  width: 360px;
+=======
   max-width: 360px;
+>>>>>>> master
   margin: 0 auto;
   font-size: 13px;
   color: #ffffff;
 }
 
+<<<<<<< HEAD
+.main_arrow__left {
+  left: -1px;
+  background: -webkit-gradient(linear, right top, left bottom, color-stop(50%, white), color-stop(50%, rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom left, white 50%, rgba(0, 0, 0, 0) 50%);
+}
+
+.main_arrow__right {
+  right: -1px;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, white), color-stop(50%, rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom right, white 50%, rgba(0, 0, 0, 0) 50%);
+=======
 .map {
   max-width: 760px;
   margin: 0 auto;
@@ -1103,6 +1136,7 @@ body {
   bottom: -1px;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 50%, white 50%);
+>>>>>>> master
 }
 
 .client_head {
@@ -1254,8 +1288,14 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../../images/BG.png");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../../images/BG.png");
   background-position: center;
+<<<<<<< HEAD
+  background: cover;
+  height: 750px;
+  margin-bottom: 60px;
+=======
   background-size: cover;
   padding-bottom: 60px;
+>>>>>>> master
   position: relative;
 }
 
@@ -1300,7 +1340,11 @@ body {
 }
 
 .footer_head__lorem {
+<<<<<<< HEAD
+  width: 360px;
+=======
   max-width: 360px;
+>>>>>>> master
   margin: 0 auto;
   font-size: 13px;
   color: #ffffff;
@@ -1315,7 +1359,11 @@ body {
   text-align: center;
   -webkit-box-pack: justify;
   justify-content: space-between;
+<<<<<<< HEAD
+  width: 1000px;
+=======
   max-width: 1000px;
+>>>>>>> master
   margin: 0 auto;
   list-style: none;
   margin-bottom: 85px;
@@ -1330,6 +1378,10 @@ body {
   text-align: center;
   align-content: center;
   width: 200px;
+<<<<<<< HEAD
+  padding: 10px;
+=======
+>>>>>>> master
 }
 
 .footer_list__link:hover {
@@ -1360,6 +1412,78 @@ body {
   font-size: 15px;
 }
 
+<<<<<<< HEAD
+@media (max-width: 1124px) {
+  .portfolio-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .portfolio-section__title {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-section__list {
+    max-width: 750px;
+  }
+
+  .overlay-portfolio__inside {
+    font-size: 28px;
+    padding-top: 30px;
+  }
+
+  .overlay-portfolio__button {
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .main_arrow_top__left,
+  .main_arrow_top__right,
+  .main_arrow_bottom__left,
+  .main_arrow_bottom__right {
+    height: 90px;
+  }
+
+  .team-section {
+    padding-top: 40px;
+    padding-bottom: 16px;
+  }
+
+  .team-section__title {
+    font-size: 25px;
+  }
+
+  .team-section__paragraph {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .team-section__list {
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  .team-section__list {
+    max-width: 840px;
+  }
+
+  .team-section__item {
+    margin: 0 20px 20px;
+  }
+
+  .team-section__item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+
+  .team-section__name {
+    font-size: 22px;
+  }
+
+  .team-section__occupation {
+    font-size: 18px;
+=======
 @media (max-width: 1199px) {
   .team-section__list {
     -webkit-box-pack: center;
@@ -1426,6 +1550,7 @@ body {
 
   .footer_head__lorem {
     max-width: 320px;
+>>>>>>> master
   }
 }
 
@@ -1567,6 +1692,51 @@ body {
 }
 
 @media (max-width: 767px) {
+<<<<<<< HEAD
+  .portfolio-section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .portfolio-section__list {
+    max-width: 375px;
+  }
+
+  .overlay-portfolio__button {
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .main_arrow_top__left,
+  .main_arrow_top__right,
+  .main_arrow_bottom__left,
+  .main_arrow_bottom__right {
+    height: 50px;
+  }
+
+  .team-section__paragraph {
+    width: auto;
+  }
+
+  .team-section__list {
+    max-width: auto;
+  }
+
+  .team-section__list .team-section__item {
+    margin: 0 10px 30px;
+    width: 100%;
+  }
+
+  .team-section__item .photo {
+    width: 263px;
+    margin: 0 auto;
+  }
+
+  .team-section__item:nth-last-child(-n + 1) {
+    margin-bottom: 0;
+  }
+=======
   .slider_btn {
     top: 65%;
   }
@@ -1594,6 +1764,7 @@ body {
   .client_list__item img {
     width: 100%;
   }
+>>>>>>> master
 }
 
 @media (max-width: 425px) {
