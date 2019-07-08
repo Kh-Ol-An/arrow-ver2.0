@@ -1,33 +1,39 @@
 // Mobile
 @media (max-width: 425px) {
   .container {
-    width: 100%;
     padding: 0 10px;
   }
 
   .hdr {
-    display: block;
-    height: initial;
+    height: 700px;
   }
 
-  .hdr__logo_name {
-    margin-bottom: 10px;
+  .hdr_madia__box {
+    position: absolute;
+    top: 0;
+    right: 110px;
   }
 
-  .hdr__text {
-    margin-bottom: 10px;
+  .hdr {
+    &__logo_name {
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      margin-bottom: 10px;
+    }
+
+    &__more_btn {
+      margin-bottom: 90px;
+    }
+
+    &__scroll_btn {
+      margin-bottom: 20px;
+    }
   }
 
-  .hdr__more_btn {
-    margin-bottom: 90px;
-  }
-
-  .hdr__scroll_btn {
-    margin-bottom: 20px;
-  }
-
-  .main_arrow__left,
-  .main_arrow__right {
+  .hdr__main_arrow_left,
+  .hdr__main_arrow_right {
     height: 50px;
   }
 
@@ -57,19 +63,13 @@
 
 // Tablet
 @media (max-width: 768px) {
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-
   .hdr {
     &__media_list {
       @include flex;
     }
 
-    &__list {
-      display: none;
+    &__logo_link {
+      padding-left: 6px;
     }
   }
 
@@ -83,24 +83,30 @@
     visibility: hidden;
   }
 
-  .hdr__logo_name {
-    margin-bottom: 32px;
+  .hdr__list {
+    display: none;
   }
 
-  .hdr__text {
-    margin-bottom: 24px;
+  .hdr {
+    &__logo_name {
+      margin-bottom: 32px;
+    }
+
+    &__text {
+      margin-bottom: 24px;
+    }
+
+    &__more_btn {
+      margin-bottom: 150px;
+    }
+
+    &__scroll_btn {
+      margin-bottom: 40px;
+    }
   }
 
-  .hdr__more_btn {
-    margin-bottom: 150px;
-  }
-
-  .hdr__scroll_btn {
-    margin-bottom: 40px;
-  }
-
-  .main_arrow__left,
-  .main_arrow__right {
+  .hdr__main_arrow_left,
+  .hdr__main_arrow_right {
     height: 90px;
   }
 
@@ -133,35 +139,29 @@
 
 // Laptop
 @media (max-width: 1024px) {
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-
   .hdr {
     height: 760px;
+
+    &__logo_name {
+      margin-bottom: 32px;
+    }
+
+    &__text {
+      width: 80%;
+      margin-bottom: 24px;
+    }
+
+    &__more_btn {
+      margin-bottom: 150px;
+    }
+
+    &__scroll_btn {
+      margin-bottom: 40px;
+    }
   }
 
-  .hdr__logo_name {
-    margin-bottom: 32px;
-  }
-
-  .hdr__text {
-    width: 80%;
-    margin-bottom: 24px;
-  }
-
-  .hdr__more_btn {
-    margin-bottom: 150px;
-  }
-
-  .hdr__scroll_btn {
-    margin-bottom: 40px;
-  }
-
-  .main_arrow__left,
-  .main_arrow__right {
+  .hdr__main_arrow_left,
+  .hdr__main_arrow_right {
     height: 110px;
   }
 

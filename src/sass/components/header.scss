@@ -5,27 +5,16 @@
   @extend %bg_position;
   background-size: cover;
   @include flex($axis: column, $cross: stretch);
+}
 
-  &__nav {
-    height: 114px;
-    @include flex;
-  }
+.hdr__nav {
+  width: 100%;
+  height: 114px;
+  @include flex;
+}
 
-  &__logo_link {
-    @extend %link;
-  }
-
-  &__list {
-    @extend %list;
-    width: 488px;
-    @include flex;
-  }
-
-  &__link {
-    @extend %link;
-    font-size: $size_base_header;
-    color: $color_base;
-  }
+.hdr__logo_link {
+  @extend %link;
 }
 
 .hdr__media_list {
@@ -52,9 +41,34 @@
   @extend %list;
 }
 
-.hdr_media_item__item:not(:last-of-type) {
-    margin-bottom: 18px;
+.hdr_media_item__item {
+  margin-bottom: 18px;
+}
+
+.hdr__list {
+  @extend %list;
+  width: 500px;
+  @include flex;
+}
+
+.hdr__item {
+  // width: 80px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.hdr__link {
+  @extend %link;
+  font-size: $size_base_header;
+  color: $color_base;
+  padding: 10px;
+
+  &:hover {
+    font-size: 22px;
+    // font-weight: 900;
   }
+}
 
 .hdr__contents {
   @include flex($axis: column, $main: flex-start);
@@ -109,24 +123,22 @@
   }
 }
 
-.main_arrow {
-  &__left {
-    @extend %main_arrow;
-    left: -1px;
-    background: linear-gradient(
-      to bottom left,
-      rgba(0, 0, 0, 0) 50%,
-      rgba(255, 255, 255, 1) 50%
-    );
-  }
+.hdr__main_arrow_left {
+  @extend %main_arrow;
+  left: -1px;
+  background: linear-gradient(
+    to bottom left,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(255, 255, 255, 1) 50%
+  );
+}
 
-  &__right {
-    @extend %main_arrow;
-    right: -1px;
-    background: linear-gradient(
-      to bottom right,
-      rgba(0, 0, 0, 0) 50%,
-      rgba(255, 255, 255, 1) 50%
-    );
-  }
+.hdr__main_arrow_right {
+  @extend %main_arrow;
+  right: -1px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(255, 255, 255, 1) 50%
+  );
 }
