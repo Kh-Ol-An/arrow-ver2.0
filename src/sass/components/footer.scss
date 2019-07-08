@@ -1,23 +1,43 @@
 .footer {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url('../../images/BG.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url('../../images/BG.png');
   background-position: center;
-  background-size: cover;
+  background: cover;
   height: 750px;
-  position: relative; 
+  margin-bottom: 60px; 
+  position: relative;
 }
 
-.bg{
-  background-image: url('../../Images/Sep-top.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+.main_arrow {
+  &__left {
+    @extend %main_arrow;
+    left: 1px;
+    top: -1px;
+    background: linear-gradient(
+      to bottom left,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  }
+ 
+  &__right {
+    @extend %main_arrow;
+    right:1px;
+    top:-1px;
+    background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(0, 0, 0, 0) 50%
+      
+    );
+  }
+ }
+
 
 .footer_head {
-  display: flex;
-  flex-flow: column wrap;
   align-content: center;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 265px;
   margin-bottom: 60px;
 
   &__title {
@@ -41,12 +61,13 @@
 
   &__lorem {
     width: 360px;
+    margin: 0 auto;
     font-size: 13px;
     color: #ffffff;
   }
 }
 
-.footer_list{
+.footer_list {
   display: flex;
   flex-flow: row wrap;
   text-align: center;
@@ -56,20 +77,20 @@
   list-style: none;
   margin-bottom: 85px;
 
-  &__link{
+  &__link {
     display: flex;
     flex-flow: column;
     text-align: center;
     align-content: center;
     width: 200px;
     padding: 10px;
-    
-    &:hover{
+
+    &:hover {
       transform: scale(1.1);
     }
   }
 
-  &__icon{
+  &__icon {
     width: 60px;
     margin: 0 auto;
     height: 60px;
@@ -78,19 +99,18 @@
     margin-bottom: 15px;
   }
 
-  &__title{
+  &__title {
     font-size: 18px;
     margin-bottom: 15px;
   }
 
-  &_info{
+  &_info {
     font-size: 15px;
   }
 }
 
-.footer_license{
+.footer_license {
   text-align: center;
   font-size: 15px;
+
 }
-
-

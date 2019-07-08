@@ -1,9 +1,8 @@
 .client_head {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: center;
+  
   text-align: center;
   margin-top: 65px;
+  margin-bottom: 70px;
 
   &__title {
     font-family: Raleway;
@@ -26,6 +25,7 @@
 
   &__lorem {
     width: 360px;
+    margin: 0 auto;
     font-size: 13px;
     color: #616161;
     position: relative;
@@ -39,6 +39,8 @@
   margin-bottom: 85px;
   list-style: none;
   padding-bottom: 20px;
+  width: 1140px;
+  margin: 0 auto;
   position: relative;
   border-bottom: 1px solid #2980b9;
 
