@@ -90,7 +90,8 @@
 
 .hdr,
 .hdr__scroll_btn::before,
-.services__link::after {
+.services__link::after,
+.map {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1050,9 +1051,8 @@ body {
 }
 
 .office_head__title {
-  font-family: Raleway;
+  font-family: "Raleway_BD";
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 25px;
   color: #2980b9;
   margin-bottom: 45px;
@@ -1080,9 +1080,6 @@ body {
   margin: 0 auto;
   position: relative;
   background: url("../../Images/World.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   height: 362px;
 }
 
@@ -1107,9 +1104,8 @@ body {
 }
 
 .client_head__title {
-  font-family: Raleway;
+  font-family: "Raleway_BD";
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 25px;
   color: #2980b9;
   margin-bottom: 45px;
@@ -1167,7 +1163,7 @@ body {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #287eb8;
+  border-top: 20px solid #2980b9;
   position: absolute;
   bottom: -38px;
   left: 50%;
@@ -1215,7 +1211,7 @@ body {
 }
 
 .slider_info__founder {
-  color: #287eb8;
+  color: #2980b9;
 }
 
 .slider_btns {
@@ -1276,11 +1272,10 @@ body {
 }
 
 .footer_head__title {
-  font-family: Raleway;
+  font-family: "Raleway_BD";
   text-transform: uppercase;
   font-weight: bold;
   font-size: 25px;
-  color: #ffffff;
   margin-bottom: 25px;
 }
 
@@ -1298,7 +1293,6 @@ body {
   max-width: 360px;
   margin: 0 auto;
   font-size: 13px;
-  color: #ffffff;
 }
 
 .footer_list {
