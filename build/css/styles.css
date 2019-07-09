@@ -90,7 +90,8 @@
 
 .hdr,
 .hdr__scroll_btn::before,
-.services__link::after {
+.services__link::after,
+.map {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -119,49 +120,16 @@
   transform: translateX(-50%);
 }
 
-<<<<<<< HEAD
 .hdr__main_arrow_left,
 .hdr__main_arrow_right,
-=======
-.main_arrow__left,
-.main_arrow__right,
-.main_arrow_bottom__left,
-.main_arrow_bottom__right,
-.main_arrow_top__left,
-<<<<<<< HEAD
-.main_arrow_top__right {
-=======
-.main_arrow_top__right,
-.main_arrow_bot__left,
-.main_arrow_bot__right {
->>>>>>> master
-  position: absolute;
-  width: 50%;
-  height: 206px;
-  bottom: -1px;
-}
-
-.services__title::after {
-  margin-top: 9px;
-  background-color: #2980b9;
-  width: 30px;
-  height: 5px;
-}
-
-.main_arrow__left,
-.main_arrow__right,
->>>>>>> master
 .main_arrow_bottom__left,
 .main_arrow_bottom__right,
 .main_arrow_top__left,
 .main_arrow_top__right,
-<<<<<<< HEAD
 .main_arrow__left,
-.main_arrow__right {
-=======
+.main_arrow__right,
 .main_arrow_bot__left,
 .main_arrow_bot__right {
->>>>>>> master
   position: absolute;
   width: 50%;
   height: 206px;
@@ -732,11 +700,7 @@ body {
   background: linear-gradient(to bottom left, rgba(0, 0, 0, 0) 50%, white 50%);
 }
 
-<<<<<<< HEAD
 .hdr__main_arrow_right {
-=======
-.main_arrow__right {
->>>>>>> master
   right: -1px;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 50%, white 50%);
@@ -802,11 +766,7 @@ body {
   margin-bottom: 24px;
 }
 
-<<<<<<< HEAD
 .services__item__text {
-=======
-.services_item__text {
->>>>>>> master
   font-size: "Raleway_L";
   font-size: 13px;
   text-align: center;
@@ -916,14 +876,7 @@ body {
 }
 
 .main_arrow_bottom__right {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   right: 0;
-=======
->>>>>>> master
-  right: -1px;
->>>>>>> master
   background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 50%, white 50%);
 }
@@ -1062,10 +1015,6 @@ body {
   color: #000;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 .office {
   max-height: 950px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../../Images/hero-03.jpg");
@@ -1076,8 +1025,6 @@ body {
   position: relative;
 }
 
->>>>>>> master
->>>>>>> master
 .main_arrow__left {
   left: 1px;
   top: -1px;
@@ -1100,21 +1047,12 @@ body {
   flex-flow: column wrap;
   align-content: center;
   text-align: center;
-<<<<<<< HEAD
-  margin-top: 65px;
-=======
-<<<<<<< HEAD
-  margin-top: 65px;
-=======
   padding-top: 270px;
->>>>>>> master
->>>>>>> master
 }
 
 .office_head__title {
-  font-family: Raleway;
+  font-family: "Raleway_BD";
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 25px;
   color: #2980b9;
   margin-bottom: 45px;
@@ -1131,45 +1069,17 @@ body {
 }
 
 .office_head__lorem {
-<<<<<<< HEAD
-  width: 360px;
-=======
-<<<<<<< HEAD
-  width: 360px;
-=======
   max-width: 360px;
->>>>>>> master
->>>>>>> master
   margin: 0 auto;
   font-size: 13px;
   color: #ffffff;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> master
-.main_arrow__left {
-  left: -1px;
-  background: -webkit-gradient(linear, right top, left bottom, color-stop(50%, white), color-stop(50%, rgba(0, 0, 0, 0)));
-  background: linear-gradient(to bottom left, white 50%, rgba(0, 0, 0, 0) 50%);
-}
-
-.main_arrow__right {
-  right: -1px;
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, white), color-stop(50%, rgba(0, 0, 0, 0)));
-  background: linear-gradient(to bottom right, white 50%, rgba(0, 0, 0, 0) 50%);
-<<<<<<< HEAD
-=======
-=======
 .map {
   max-width: 760px;
   margin: 0 auto;
   position: relative;
   background: url("../../Images/World.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   height: 362px;
 }
 
@@ -1185,8 +1095,6 @@ body {
   bottom: -1px;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, white));
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 50%, white 50%);
->>>>>>> master
->>>>>>> master
 }
 
 .client_head {
@@ -1196,9 +1104,8 @@ body {
 }
 
 .client_head__title {
-  font-family: Raleway;
+  font-family: "Raleway_BD";
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 25px;
   color: #2980b9;
   margin-bottom: 45px;
@@ -1256,7 +1163,7 @@ body {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #287eb8;
+  border-top: 20px solid #2980b9;
   position: absolute;
   bottom: -38px;
   left: 50%;
@@ -1304,7 +1211,7 @@ body {
 }
 
 .slider_info__founder {
-  color: #287eb8;
+  color: #2980b9;
 }
 
 .slider_btns {
@@ -1338,20 +1245,8 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../../images/BG.png");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../../images/BG.png");
   background-position: center;
-<<<<<<< HEAD
-  background: cover;
-  height: 750px;
-  margin-bottom: 60px;
-=======
-<<<<<<< HEAD
-  background: cover;
-  height: 750px;
-  margin-bottom: 60px;
-=======
   background-size: cover;
   padding-bottom: 60px;
->>>>>>> master
->>>>>>> master
   position: relative;
 }
 
@@ -1377,11 +1272,10 @@ body {
 }
 
 .footer_head__title {
-  font-family: Raleway;
+  font-family: "Raleway_BD";
   text-transform: uppercase;
   font-weight: bold;
   font-size: 25px;
-  color: #ffffff;
   margin-bottom: 25px;
 }
 
@@ -1396,18 +1290,9 @@ body {
 }
 
 .footer_head__lorem {
-<<<<<<< HEAD
-  width: 360px;
-=======
-<<<<<<< HEAD
-  width: 360px;
-=======
   max-width: 360px;
->>>>>>> master
->>>>>>> master
   margin: 0 auto;
   font-size: 13px;
-  color: #ffffff;
 }
 
 .footer_list {
@@ -1419,15 +1304,7 @@ body {
   text-align: center;
   -webkit-box-pack: justify;
   justify-content: space-between;
-<<<<<<< HEAD
-  width: 1000px;
-=======
-<<<<<<< HEAD
-  width: 1000px;
-=======
   max-width: 1000px;
->>>>>>> master
->>>>>>> master
   margin: 0 auto;
   list-style: none;
   margin-bottom: 85px;
@@ -1442,14 +1319,6 @@ body {
   text-align: center;
   align-content: center;
   width: 200px;
-<<<<<<< HEAD
-  padding: 10px;
-=======
-<<<<<<< HEAD
-  padding: 10px;
-=======
->>>>>>> master
->>>>>>> master
 }
 
 .footer_list__link:hover {
@@ -1464,7 +1333,6 @@ body {
   padding-left: 15px;
   padding-top: 15px;
   margin-bottom: 15px;
-<<<<<<< HEAD
 }
 
 .footer_list__title {
@@ -1481,24 +1349,66 @@ body {
   font-size: 15px;
 }
 
-=======
+@media (max-width: 1199px) {
+  .office_head {
+    padding-top: 160px;
+  }
+
+  .client {
+    padding: 0 10px;
+  }
+
+  .client_list {
+    max-width: 600px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border: none;
+  }
+
+  .client_list__link {
+    width: 32%;
+  }
+
+  .client_list__item {
+    display: block;
+  }
+
+  .client_list__item img {
+    width: 100%;
+  }
+
+  .slider_info {
+    font-size: 13px;
+  }
+
+  .slider_btn {
+    top: 50%;
+    position: absolute;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 320px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .footer {
+    padding: 0 10px;
+    padding-bottom: 30px;
+  }
+
+  .footer_list {
+    max-width: 599px;
+  }
+
+  .footer_head__lorem {
+    max-width: 320px;
+  }
 }
 
-.footer_list__title {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-.footer_list_info {
-  font-size: 15px;
-}
-
-.footer_license {
-  text-align: center;
-  font-size: 15px;
-}
-
-<<<<<<< HEAD
 @media (max-width: 1124px) {
   .portfolio-section {
     padding-top: 100px;
@@ -1569,88 +1479,8 @@ body {
 
   .team-section__occupation {
     font-size: 18px;
-=======
->>>>>>> master
-@media (max-width: 1199px) {
-  .team-section__list {
-    -webkit-box-pack: center;
-    justify-content: center;
-  }
-
-  .team-section__item {
-    margin: 0 10px 20px;
-  }
-<<<<<<< HEAD
-}
-=======
-
-  .office_head {
-    padding-top: 160px;
-  }
-
-  .client {
-    padding: 0 10px;
-  }
-
-  .client_list {
-    max-width: 600px;
-    margin: 0 auto;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    border: none;
-  }
-
-  .client_list__link {
-    width: 32%;
-  }
-
-  .client_list__item {
-    display: block;
-  }
-
-  .client_list__item img {
-    width: 100%;
-  }
-
-  .slider_info {
-    font-size: 13px;
-  }
-
-  .slider_btn {
-    top: 50%;
-    position: absolute;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    width: 320px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-
-  .footer {
-    padding: 0 10px;
-    padding-bottom: 30px;
-  }
-
-  .footer_list {
-    max-width: 599px;
-  }
-
-  .footer_head__lorem {
-    max-width: 320px;
->>>>>>> master
   }
 }
-
-@media (max-width: 1024px) {
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
->>>>>>> master
 
 @media (max-width: 1024px) {
   .hdr {
@@ -1674,13 +1504,8 @@ body {
     margin-bottom: 40px;
   }
 
-<<<<<<< HEAD
   .hdr__main_arrow_left,
   .hdr__main_arrow_right {
-=======
-  .main_arrow__left,
-  .main_arrow__right {
->>>>>>> master
     height: 110px;
   }
 
@@ -1695,15 +1520,6 @@ body {
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
-=======
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-
->>>>>>> master
   .hdr__media_list {
     display: -webkit-box;
     display: flex;
@@ -1796,7 +1612,6 @@ body {
 }
 
 @media (max-width: 767px) {
-<<<<<<< HEAD
   .portfolio-section {
     padding-top: 40px;
     padding-bottom: 60px;
@@ -1840,7 +1655,7 @@ body {
   .team-section__item:nth-last-child(-n + 1) {
     margin-bottom: 0;
   }
-=======
+
   .slider_btn {
     top: 65%;
   }
@@ -1868,7 +1683,6 @@ body {
   .client_list__item img {
     width: 100%;
   }
->>>>>>> master
 }
 
 @media (max-width: 425px) {

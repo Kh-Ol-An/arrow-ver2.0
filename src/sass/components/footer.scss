@@ -38,18 +38,17 @@
   margin-bottom: 60px;
 
   &__title {
-    font-family: Raleway;
+    font-family: $family_releway_BD;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 25px;
-    color: #ffffff;
+    font-size: $size_title;
     margin-bottom: 25px;
 
     &::after {
       display: block;
       margin: 0 auto;
       content: '';
-      background-color: #ffffff;
+      background-color: $color_base;
       width: 30px;
       height: 5px;
       margin-top: 15px;
@@ -60,7 +59,7 @@
     max-width: 360px;
     margin: 0 auto;
     font-size: 13px;
-    color: #ffffff;
+    // color: #ffffff;
   }
 }
 
