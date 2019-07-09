@@ -40,18 +40,17 @@
   padding-top: 270px;
 
   &__title {
-    font-family: Raleway;
+    font-family: $family_releway_BD;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 25px;
-    color: #2980b9;
+    font-size: $size_title;
+    color: $color_title;
     margin-bottom: 45px;
 
     &::after {
       display: block;
       margin: 0 auto;
       content: '';
-      background-color: #2980b9;
+      background-color: $color_title;
       width: 30px;
       height: 6px;
       margin-top: 16px;
@@ -61,8 +60,8 @@
   &__lorem {
     max-width: 360px;
     margin: 0 auto;
-    font-size: 13px;
-    color: #ffffff;
+    font-size: $size_base;
+    color: $color_base;
   }
 }
 
@@ -71,9 +70,7 @@
   margin: 0 auto;
   position: relative;
   background: url('../../Images/World.png');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  @extend %bg_position;
   height: 362px;
 }
 
