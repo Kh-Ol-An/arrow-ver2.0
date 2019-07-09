@@ -94,10 +94,10 @@
   height: 24px;
 }
 
-.main_arrow_bottom {
+.port_arrow_bottom {
   &__left {
     @extend %main_arrow;
-    left: -1px;
+    left: 0;
     background: linear-gradient(
       to bottom left,
       rgba(0, 0, 0, 0) 50%,
@@ -116,10 +116,10 @@
   }
 }
 
-.main_arrow_top {
+.port_arrow_top {
   &__left {
     @extend %main_arrow;
-    left: 0;
+    left: 1px;
     top: -1px;
     background: linear-gradient(
       to top right,
@@ -130,7 +130,7 @@
 
   &__right {
     @extend %main_arrow;
-    right: 0;
+    right: 1px;
     top: -1px;
     background: linear-gradient(
       to top left,
@@ -165,13 +165,6 @@
     width: 80px;
     height: 80px;
   }
-
-  .main_arrow_top__left,
-  .main_arrow_top__right,
-  .main_arrow_bottom__left,
-  .main_arrow_bottom__right {
-    height: 90px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -188,12 +181,5 @@
     margin-top: 10px;
     width: 90px;
     height: 90px;
-  }
-
-  .main_arrow_top__left,
-  .main_arrow_top__right,
-  .main_arrow_bottom__left,
-  .main_arrow_bottom__right {
-    height: 50px;
   }
 }

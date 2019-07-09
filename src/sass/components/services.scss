@@ -39,6 +39,16 @@
     top: -76px;
   }
 }
+ 
+.services__link:hover .services_item__title,
+.services__link:focus .services_item__title {
+  font-family: $family_releway_BK;
+}
+
+.services__link:hover .services_item__text,
+.services__link:focus .services_item__text {
+  font-family: $family_releway_BD;
+}
 
 .services__idea::after {
   background-image: url('../images/png/idea-icon.png');
@@ -61,7 +71,7 @@
   margin-bottom: 24px;
 }
 
-.services__item__text {
+.services_item__text {
   font-size: $family_releway_L;
   font-size: $size_base;
   text-align: center;
