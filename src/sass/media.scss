@@ -1,81 +1,119 @@
+// Desktop
+@media (max-width: 1199px) {
+
+  .hdr__logo_name {
+    margin-bottom: 32px;
+  }
+
+  .hdr__text {
+    width: 80%;
+    margin-bottom: 24px;
+  }
+
+  .hdr__more_btn {
+    margin-bottom: 150px;
+  }
+
+  .hdr__scroll_btn {
+    margin-bottom: 40px;
+  }
+
+  .hdr__main_arrow_left,
+  .hdr__main_arrow_right,
+  .port_arrow_top__left,
+  .port_arrow_top__right,
+  .port_arrow_bottom__left,
+  .port_arrow_bottom__right,
+  .office_arrow__left,
+  .office_arrow__right,
+  .office_arrow_bot__left,
+  .office_arrow_bot__right,
+  .ftr_arrow__left,
+  .ftr_arrow__right {
+    height: 110px;
+  }
+
+  .services__item {
+    width: 156px;
+  }
+}
+
+// Tablet
+@media (max-width: 1023px) {
+  .hdr_container {
+    width: 80%;
+  }
+
+  .hdr__logo_name {
+    margin-bottom: 32px;
+  }
+
+  .hdr__text {
+    margin-bottom: 24px;
+  }
+
+  .hdr__more_btn {
+    margin-bottom: 150px;
+  }
+
+  .hdr__scroll_btn {
+    margin-bottom: 40px;
+  }
+
+  .hdr__main_arrow_left,
+  .hdr__main_arrow_right,
+  .port_arrow_top__left,
+  .port_arrow_top__right,
+  .port_arrow_bottom__left,
+  .port_arrow_bottom__right,
+  .office_arrow__left,
+  .office_arrow__right,
+  .office_arrow_bot__left,
+  .office_arrow_bot__right,
+  .ftr_arrow__left,
+  .ftr_arrow__right {
+    height: 90px;
+  }
+
+  .services {
+    padding-top: 46px;
+    padding-bottom: 14px;
+  }
+
+  .services__title {
+    margin-bottom: 114px;
+  }
+
+  .services__item {
+    width: 100%;
+
+    &:not(:last-of-type) {
+      margin-bottom: 120px;
+    }
+  }
+
+  .services_item__title {
+    margin-bottom: 18px;
+  }
+}
+
 // Mobile
-@media (max-width: 425px) {
+@media (max-width: 767px) {
+  .hdr_container {
+    width: 90%;
+    padding: 0 10px;
+  }
+
   .container {
     padding: 0 10px;
   }
 
   .hdr {
-    height: 700px;
+    height: 740px;
   }
 
-  .hdr_madia__box {
-    position: absolute;
-    top: 0;
-    right: 110px;
-  }
-
-  .hdr {
-    &__logo_name {
-      margin-bottom: 10px;
-    }
-
-    &__text {
-      margin-bottom: 10px;
-    }
-
-    &__more_btn {
-      margin-bottom: 90px;
-    }
-
-    &__scroll_btn {
-      margin-bottom: 20px;
-    }
-  }
-
-  .hdr__main_arrow_left,
-  .hdr__main_arrow_right {
-    height: 50px;
-  }
-
-  .main_arrow_bot__left,
-  .main_arrow_bot__right {
-    height: 50px;
-  }
-
-  .services {
-    padding-top: 10px;
-    padding-bottom: 5px;
-
-    &__title {
-      margin-bottom: 90px;
-    }
-
-    &__item {
-      &:not(:last-of-type) {
-        margin-bottom: 90px;
-      }
-    }
-
-    &__link::after {
-      top: -66px;
-    }
-  }
-
-  .services_item__title {
-    margin-bottom: 5px;
-  }
-}
-
-// Tablet
-@media (max-width: 768px) {
-  .hdr {
-    &__media_list {
-      @include flex;
-    }
-
-    &__logo_link {
-      padding-left: 6px;
-    }
+  .hdr__media_list {
+    @include flex;
   }
 
   .hdr__media_btn:hover .hdr_media_item__list,
@@ -92,95 +130,66 @@
     display: none;
   }
 
-  .hdr {
-    &__logo_name {
-      margin-bottom: 32px;
-    }
+  .hdr_madia__box {
+    position: absolute;
+    top: 0;
+    right: 110px;
+  }
 
-    &__text {
-      margin-bottom: 24px;
-    }
+  .hdr__logo_name {
+    margin-bottom: 10px;
+  }
 
-    &__more_btn {
-      margin-bottom: 150px;
-    }
+  .hdr__text {
+    margin-bottom: 10px;
+  }
 
-    &__scroll_btn {
-      margin-bottom: 40px;
-    }
+  .hdr__more_btn {
+    margin-bottom: 90px;
+  }
+
+  .hdr__scroll_btn {
+    margin-bottom: 20px;
   }
 
   .hdr__main_arrow_left,
-  .hdr__main_arrow_right {
-    height: 90px;
-  }
-
-  .main_arrow_bot__left,
-  .main_arrow_bot__right {
-    height: 90px;
+  .hdr__main_arrow_right,
+  .port_arrow_top__left,
+  .port_arrow_top__right,
+  .port_arrow_bottom__left,
+  .port_arrow_bottom__right,
+  .office_arrow__left,
+  .office_arrow__right,
+  .office_arrow_bot__left,
+  .office_arrow_bot__right,
+  .ftr_arrow__left,
+  .ftr_arrow__right {
+    height: 50px;
   }
 
   .services {
-    padding-top: 46px;
-    padding-bottom: 14px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
 
-    &__title {
-      margin-bottom: 114px;
-    }
+  .services__title {
+    margin-bottom: 90px;
+  }
 
-    &__list {
-      @include flex($main: center, $cross: stretch);
-      flex-wrap: wrap;
-    }
+  .services__list {
+    @include flex($main: center, $cross: stretch);
+    flex-wrap: wrap;
+  }
 
-    &__item {
-      width: 100%;
+  .services__item:not(:last-of-type) {
+    margin-bottom: 90px;
+  }
 
-      &:not(:last-of-type) {
-        margin-bottom: 120px;
-      }
-    }
+  .services__link::after {
+    top: -66px;
   }
 
   .services_item__title {
-    margin-bottom: 18px;
-  }
-}
-
-// Laptop
-@media (max-width: 1024px) {
-  .hdr {
-    height: 760px;
-
-    &__logo_name {
-      margin-bottom: 32px;
-    }
-
-    &__text {
-      width: 80%;
-      margin-bottom: 24px;
-    }
-
-    &__more_btn {
-      margin-bottom: 150px;
-    }
-
-    &__scroll_btn {
-      margin-bottom: 40px;
-    }
-  }
-
-  .hdr__main_arrow_left,
-  .hdr__main_arrow_right {
-    height: 110px;
-  }
-
-  .main_arrow_bot__left,
-  .main_arrow_bot__right {
-    height: 110px;
-  }
-
-  .services__item {
-    width: 156px;
+    margin-bottom: 5px;
   }
 }
