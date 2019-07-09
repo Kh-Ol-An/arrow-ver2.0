@@ -1,14 +1,14 @@
 .team-section {
-  font-family: 'Raleway';
+  font-family: $family_base;
   padding-top: 60px;
   padding-bottom: 12px;
 }
 
 .team-section__title {
-  font-family: 'Raleway_BD';
+  font-family: $family_releway_BD;
   margin: 0 auto;
   text-align: center;
-  color: #2980b9;
+  color: $color_title;
   font-size: 28px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -18,7 +18,7 @@
   display: block;
   margin: 0 auto;
   content: '';
-  background-color: #2980b9;
+  background-color: $color_title;
   width: 30px;
   height: 6px;
   margin-top: 16px;
@@ -26,7 +26,7 @@
 
 .team-section__paragraph {
   color: #616161;
-  font-family: 'Raleway';
+  font-family: $family_base;
   font-size: 13px;
   margin: 0 auto;
   text-align: center;
@@ -90,15 +90,15 @@
 .socials__button {
   width: 30px;
   height: 30px;
-  fill: #2980b9;
+  fill: $color_title;
 }
 
 .team-section__name {
   display: block;
   text-decoration: none;
-  font-family: 'Raleway_BD';
+  font-family: $family_releway_BD;
   font-size: 20px;
-  color: #2980b9;
+  color: $color_title;
   margin-top: 16px;
 }
 

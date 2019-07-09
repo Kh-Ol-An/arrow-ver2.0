@@ -786,7 +786,7 @@ body {
 .portfolio-section__title {
   font-size: 28px;
   color: #fafcfe;
-  font-family: 'Raleway_BD';
+  font-family: "Raleway_BD";
   text-transform: uppercase;
   text-align: center;
   margin-top: 30px;
@@ -840,7 +840,7 @@ body {
   padding-top: 45px;
   text-align: center;
   color: #fafcfe;
-  font-family: 'Raleway_BD';
+  font-family: "Raleway_BD";
   font-size: 25px;
 }
 
@@ -896,13 +896,13 @@ body {
 }
 
 .team-section {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   padding-top: 60px;
   padding-bottom: 12px;
 }
 
 .team-section__title {
-  font-family: 'Raleway_BD';
+  font-family: "Raleway_BD";
   margin: 0 auto;
   text-align: center;
   color: #2980b9;
@@ -923,7 +923,7 @@ body {
 
 .team-section__paragraph {
   color: #616161;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 13px;
   margin: 0 auto;
   text-align: center;
@@ -1003,7 +1003,7 @@ body {
 .team-section__name {
   display: block;
   text-decoration: none;
-  font-family: 'Raleway_BD';
+  font-family: "Raleway_BD";
   font-size: 20px;
   color: #2980b9;
   margin-top: 16px;
