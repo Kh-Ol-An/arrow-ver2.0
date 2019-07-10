@@ -6,42 +6,42 @@
   font-family: 'Raleway_L';
   font-style: normal;
   font-weight: 300;
-  src: local("Raleway Light"), local("Raleway-Light"), url("../../fonts/raleway-v13-latin-300.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-300.woff") format("woff");
+  src: local("Raleway Light"), local("Raleway-Light"), url("../fonts/raleway-v13-latin-300.woff2") format("woff2"), url("../fonts/raleway-v13-latin-300.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local("Raleway"), local("Raleway-Regular"), url("../../fonts/raleway-v13-latin-regular.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-regular.woff") format("woff");
+  src: local("Raleway"), local("Raleway-Regular"), url("../fonts/raleway-v13-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v13-latin-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Raleway_BD';
   font-style: normal;
   font-weight: 700;
-  src: local("Raleway Bold"), local("Raleway-Bold"), url("../../fonts/raleway-v13-latin-700.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-700.woff") format("woff");
+  src: local("Raleway Bold"), local("Raleway-Bold"), url("../fonts/raleway-v13-latin-700.woff2") format("woff2"), url("../fonts/raleway-v13-latin-700.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Raleway_BK';
   font-style: normal;
   font-weight: 900;
-  src: local("Raleway Black"), local("Raleway-Black"), url("../../fonts/raleway-v13-latin-900.woff2") format("woff2"), url("../../fonts/raleway-v13-latin-900.woff") format("woff");
+  src: local("Raleway Black"), local("Raleway-Black"), url("../fonts/raleway-v13-latin-900.woff2") format("woff2"), url("../fonts/raleway-v13-latin-900.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"), url("../../fonts/lato-v15-latin-regular.woff2") format("woff2"), url("../../fonts/lato-v15-latin-regular.woff") format("woff");
+  src: local("Lato Regular"), local("Lato-Regular"), url("../fonts/lato-v15-latin-regular.woff2") format("woff2"), url("../fonts/lato-v15-latin-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Lato_I_BD';
   font-style: italic;
   font-weight: 700;
-  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url("../../fonts/lato-v15-latin-700italic.woff2") format("woff2"), url("../../fonts/lato-v15-latin-700italic.woff") format("woff");
+  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url("../fonts/lato-v15-latin-700italic.woff2") format("woff2"), url("../fonts/lato-v15-latin-700italic.woff") format("woff");
 }
 
 @font-face {
@@ -1107,8 +1107,8 @@ body {
 
 .office {
   max-height: 950px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../../Images/hero-03.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../../Images/hero-03.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../images/hero-03.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/hero-03.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1169,7 +1169,7 @@ body {
   max-width: 760px;
   margin: 0 auto;
   position: relative;
-  background: url("../../Images/World.png");
+  background: url("../images/World.png");
   height: 362px;
 }
 
@@ -1332,8 +1332,8 @@ body {
 }
 
 .footer {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../../images/BG.png");
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../../images/BG.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../images/BG.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/BG.png");
   background-position: center;
   background-size: cover;
   padding-bottom: 60px;
