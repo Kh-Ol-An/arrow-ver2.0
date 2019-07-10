@@ -1026,8 +1026,9 @@ body {
   display: flex;
   max-width: 1140px;
   width: 100%;
-  -webkit-box-flex: row;
-  flex: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -1679,7 +1680,7 @@ body {
   }
 
   .team-section__list {
-    max-width: auto;
+    max-width: 100%;
   }
 
   .team-section__list .team-section__item {

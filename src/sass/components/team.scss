@@ -39,7 +39,7 @@
   display: flex;
   max-width: 1140px;
   width: 100%;
-  flex: row;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
@@ -154,7 +154,7 @@
   }
 
   .team-section__list {
-    max-width: auto;
+    max-width: 100%;
 
     .team-section__item {
       margin: 0 10px 30px;
