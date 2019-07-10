@@ -601,7 +601,7 @@ html {
 img {
   display: block;
   max-width: 100%;
-  line-height: auto;
+  height: auto;
 }
 
 body {
@@ -856,7 +856,7 @@ body {
 }
 
 .services_item__text {
-  font-size: "Raleway_L";
+  font-family: "Raleway_L";
   font-size: 13px;
   text-align: center;
 }
