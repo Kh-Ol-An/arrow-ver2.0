@@ -601,11 +601,7 @@ html {
 img {
   display: block;
   max-width: 100%;
-<<<<<<< HEAD
-  line-height: auto;
-=======
   height: auto;
->>>>>>> master
 }
 
 body {
@@ -860,11 +856,7 @@ body {
 }
 
 .services_item__text {
-<<<<<<< HEAD
-  font-size: "Raleway_L";
-=======
   font-family: "Raleway_L";
->>>>>>> master
   font-size: 13px;
   text-align: center;
 }
@@ -1034,14 +1026,9 @@ body {
   display: flex;
   max-width: 1140px;
   width: 100%;
-<<<<<<< HEAD
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   flex-direction: row;
-=======
-  -webkit-box-flex: row;
-  flex: row;
->>>>>>> master
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -1693,11 +1680,7 @@ body {
   }
 
   .team-section__list {
-<<<<<<< HEAD
     max-width: 100%;
-=======
-    max-width: auto;
->>>>>>> master
   }
 
   .team-section__list .team-section__item {
